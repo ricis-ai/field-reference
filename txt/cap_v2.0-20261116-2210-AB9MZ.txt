@@ -1,0 +1,13 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Civil Air Patrol
+
+CAP uses its own authorized HF and VHF communications networks, including analog and digital systems. These are distinct from amateur bands.
+
+Use current CAP training, qualifications, mission authorization and approved channel plans. Personally owned equipment must satisfy applicable NTIA and CAP requirements.
+
+Do not substitute an amateur radio merely because it can tune to a CAP channel. Frequency coverage does not establish equipment compliance or operator authorization.
+
+Keep the current mission channel plan with the radio. Use CAP-assigned identifiers and procedures when operating in that service.
+
+References: Civil Air Patrol; CAP equipment

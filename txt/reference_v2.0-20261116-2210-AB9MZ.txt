@@ -1,0 +1,28 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Glossary and review checklist
+
+Glossary
+
+Term Meaning
+ALC Automatic level control
+CAT Computer aided transceiver control
+CTCSS Continuous tone coded squelch
+DCS Digital coded squelch
+EIRP Power relative to isotropic antenna
+ERP Power relative to half-wave dipole
+NCS Net control station
+NVIS Near vertical incidence skywave
+PEP Peak envelope power
+PTT Push to talk
+SWR Standing wave ratio
+
+Review before the next outing
+
+This edition is dated 2026-10-31. Recheck rules, band privileges, software frequency lists and program instructions before relying on an older printed copy.
+
+Verify local channels, tones, nets, contacts and paths before every deployment. Worksheets intentionally leave these operational assignments for local confirmation.
+
+The source pages identify the references used. Source numbers on topic pages point to those entries. Original procedures and worksheets supplement those references.
+
+Maintain your own change log and replace revised leaves in the comb. Keep one complete electronic copy available offline.

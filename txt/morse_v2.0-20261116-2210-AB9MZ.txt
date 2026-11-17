@@ -1,0 +1,163 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Morse code and procedural signals
+
+Morse letters
+
+A-M Morse
+N-Z Morse
+A dit dah
+N dah dit
+B dah dit dit dit
+O dah dah dah
+C dah dit dah dit
+P dit dah dah dit
+D dah dit dit
+Q dah dah dit dah
+E dit
+R dit dah dit
+F dit dit dah dit
+S dit dit dit
+G dah dah dit
+T dah
+H dit dit dit dit
+U dit dit dah
+I dit dit
+V dit dit dit dah
+J dit dah dah dah
+W dit dah dah
+K dah dit dah
+X dah dit dit dah
+L dit dah dit dit
+Y dah dit dah dah
+M dah dah
+Z dah dah dit dit
+
+A dot is dit; a dash is dah. These are character patterns, not phonetic spelling words.
+
+References: Morse code
+
+Morse numbers
+
+Digit Morse
+0 dah dah dah dah dah
+1 dit dah dah dah dah
+2 dit dit dah dah dah
+3 dit dit dit dah dah
+4 dit dit dit dit dah
+5 dit dit dit dit dit
+6 dah dit dit dit dit
+7 dah dah dit dit dit
+8 dah dah dah dit dit
+9 dah dah dah dah dit
+
+References: Morse code
+
+Morse punctuation 1
+
+Character Morse
+Period . dit dah dit dah dit dah
+Comma , dah dah dit dit dah dah
+Colon : dah dah dah dit dit dit
+Question mark ? dit dit dah dah dit dit
+Apostrophe ' dit dah dah dah dah dit
+Hyphen - dah dit dit dit dit dah
+Slash / dah dit dit dah dit
+
+Core character assignments from ITU R M.1677. Some patterns also serve procedural meanings in the appropriate context.
+
+References: Morse code
+
+Morse punctuation 2
+
+Character Morse
+Quotation marks " dit dah dit dit dah dit
+Left parenthesis ( dah dit dah dah dit
+Right parenthesis ) dah dit dah dah dit dah
+Equals = dah dit dit dit dah
+Plus + dit dah dit dah dit
+At sign @ dit dah dah dit dah dit
+Multiply x dah dit dit dah
+
+Core character assignments from ITU R M.1677. Some patterns also serve procedural meanings in the appropriate context.
+
+References: Morse code
+
+Morse procedural signals 1
+
+Signal, Morse, Meaning
+AR, dit dah dit dah dit, End of message
+BT, dah dit dit dit dah, Separate message text
+AS, dit dah dit dit dit, Wait
+SK or VA, dit dit dit dah dit dah, End of work or contact
+SN or VE, dit dit dit dah dit, Understood
+
+Angle brackets or an overbar denote a joined prosign. Send its elements with no letter gap. K is a single-letter procedural signal. Follow the net procedure.
+
+References: Morse code; Morse procedures
+
+Morse procedural signals 2
+
+Signal, Morse, Meaning
+CT or KA, dah dit dah dit dah, Starting signal
+HH, dit dit dit dit dit dit dit dit, Error
+KN, dah dit dah dah dit, Named station only
+AA, dit dah dit dah, New line in NTS address
+K, dah dit dah, Invitation to transmit
+
+Angle brackets or an overbar denote a joined prosign. Send its elements with no letter gap. K is a single-letter procedural signal. Follow the net procedure.
+
+References: Morse code; Morse procedures
+
+Morse accented letters and digraph
+
+Character Morse
+É or é dit dit dah dit dit
+Ä or ä dit dah dit dah
+Á or á dit dah dah dit dah
+Å or å dit dah dah dit dah
+Ç or ç dah dit dah dit dit
+Ñ or ñ dah dah dit dah dah
+Ö or ö dah dah dah dit
+Ü or ü dit dit dah dah
+CH joined dah dah dah dah
+
+Accented E appears in the ITU core. The other entries are regional or software extensions documented by DJ7HS. They are not extra phonetic alphabet words.
+
+References: Morse code; Regional Morse extensions
+
+Morse extension punctuation
+
+Extensions differ between implementations. These examples come from DJ7HS Fistcheck and the HamGadgets MK 1 manual; they are not an ITU punctuation extension.
+
+Symbol Morse
+Dollar $ dit dit dit dah dit dit dah
+Semicolon ; dah dit dah dit dah dit
+Underscore _ dit dit dah dah dit dah
+Ampersand & dit dah dit dit dit
+Exclamation MK1 ! dah dit dah dit dah dah
+Exclamation Fistcheck ! dit dit dah dah dit
+
+The two exclamation patterns are alternatives, not interchangeable letters. MK 1 USB keyboard ampersand sends spaced ES instead. Agree on the character set or spell the symbol in words.
+
+References: Regional Morse extensions; Keyer punctuation conventions
+
+Morse symbols sent as sequences
+
+Percent has no separate core character. ITU procedure sends the characters 0/0. Per thousand uses 0/00. These contain normal character gaps.
+
+For 2 percent, send 2-0/0. A minute sign after a number uses the apostrophe signal once; a seconds sign uses it twice.
+
+Do not invent a joined signal for a symbol with no agreed assignment. In plain amateur correspondence, spelling its name may avoid ambiguity.
+
+References: Morse code
+
+Morse timing and distress
+
+A dit is one time unit. A dah is three units. Gaps are one unit within a character, three between characters, and seven between words.
+
+SOS is dit dit dit dah dah dah dit dit dit as one continuous distress signal. There are no S O S letter gaps. Use it for distress, not for a routine test.
+
+For the PARIS speed standard, dit duration in milliseconds is 1200 divided by words per minute. At 20 WPM, a dit lasts 60 milliseconds.
+
+References: Morse code

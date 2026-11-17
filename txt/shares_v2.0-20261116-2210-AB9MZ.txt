@@ -1,0 +1,13 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+SHARES
+
+Shared Resources High Frequency Radio Program coordinates existing HF capabilities for national-security and emergency-preparedness communications.
+
+Participation is organizational and requires program enrollment and authorization. An amateur license alone does not confer access to SHARES channels.
+
+Use the current program-issued directory, operational instructions, identifiers and equipment requirements. Record the sponsoring organization and responsible communications official in the deployment packet.
+
+Treat SHARES and amateur operation as separate service configurations. Verify the full authorized setup before transmitting; do not use an internet frequency list as an operational assignment.
+
+References: SHARES; SHARES overview

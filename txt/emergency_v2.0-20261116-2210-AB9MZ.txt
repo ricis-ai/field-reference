@@ -1,0 +1,43 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Emergency operating procedures
+
+Immediate emergency message
+
+Use 911 or the responsible agency directly when available. If radio is your usable path, call on a monitored, authorized frequency.
+
+Say: EMERGENCY, EMERGENCY. This is AB9MZ. I need emergency assistance.
+
+Give: exact location and access point; what happened; immediate hazards; number of people needing help; assistance needed; your callback or monitoring frequency.
+
+Ask the receiving station to repeat the location and request. Record who accepted the message and when. Remain available for questions.
+
+Do not assume that a calling frequency or repeater is monitored.
+
+References: FCC rules; ICS forms
+
+Field station first contact
+
+1. Confirm a safe site, battery polarity, correct antenna and clear feed line. Start at low power.
+
+2. Read back frequency, mode, power, offset and tone from the plan. Disable scan, unintended split, VOX and automatic transmit.
+
+3. Listen first. Ask whether the frequency is in use. Give your call and request a brief radio check.
+
+4. Exchange an actual message with the intended destination. Confirm intelligibility both ways and log the test.
+
+5. If it fails, try the agreed alternate. Prove the path before starting the assignment.
+
+Net check in and emergency break
+
+Listen for net control and the requested check-in order. Avoid transmitting over another station.
+
+Check-in: AB9MZ, Gregg, at Shelter One. One priority message for Operations. Battery station, available for two hours.
+
+Emergency break: EMERGENCY, AB9MZ. Wait for acknowledgment, then give the essential facts.
+
+For a directed net, obtain permission before changing frequency or leaving. If you lose contact, follow the written lost-communications plan.
+
+Tactical names identify assignments. Give the required FCC call sign as well.
+
+References: FCC rules; Message procedure

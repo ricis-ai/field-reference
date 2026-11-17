@@ -1,0 +1,39 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+CW abbreviations
+
+CW abbreviations one
+
+Code Meaning
+AGN Again
+BK Break or back to you
+CQ Calling any station
+DE From or this is
+ES And
+FB Fine business
+GA Go ahead or good afternoon
+GE Good evening
+GM Good morning
+HW How do you copy
+K Invitation to transmit
+NR Number
+
+References: Q signals; Message procedure
+
+CW abbreviations two
+
+Code Meaning
+OM Old man, traditional term
+PSE Please
+R Received
+RIG Radio equipment
+RPT Repeat or report
+RST Readability strength tone
+RX or RCVR Receiver
+TNX or TU Thanks or thank you
+TX or XMTR Transmitter
+UR Your or you are
+WX Weather
+73 Best regards
+
+References: Q signals; Message procedure

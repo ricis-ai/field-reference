@@ -1,0 +1,111 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+National Traffic System
+
+NTS and message movement
+
+National Traffic System moves formal messages through amateur traffic nets and relay stations. A radiogram preserves the originator, destination and exact text across those relays.
+
+Find the local net, practice before deployment, and ask net control where to route traffic. Nets can connect local, section, regional and wider paths.
+
+Accept a message only when you can copy it accurately and arrange onward relay or delivery. Record each handoff.
+
+An accepted message is not necessarily delivered. Track critical traffic through the required recipient confirmation and service reports.
+
+References: Traffic system; Message procedure; Delivery standards
+
+Radiogram preamble
+
+Record in order: message number; precedence; optional HX instructions; station of origin; check; place of origin; optional filing time; date.
+
+Then record the addressee and delivery information, the text, and the signature of the person originating the message.
+
+The station of origin is the station first placing the message into radiogram form, not necessarily the person who wrote it.
+
+The check counts text groups only. Exclude preamble, address and signature. Preserve the original number and station of origin through relays.
+
+References: Message procedure
+
+Radiogram worked example
+
+Practice message, not an actual incident.
+
+Preamble: 1 R AB9MZ 10 TINLEY PARK IL 0200Z NOV 1
+
+To: EXERCISE CONTROL. Use the destination contact supplied by your exercise.
+
+Text: EXERCISE SHELTER ONE HAS POWER X NO ADDITIONAL BATTERIES NEEDED
+
+Signature: GREGG
+
+Check is 10: EXERCISE 1, SHELTER 2, ONE 3, HAS 4, POWER 5, X 6, NO 7, ADDITIONAL 8, BATTERIES 9, NEEDED 10.
+
+References: Message procedure
+
+Message precedence
+
+EMERGENCY: immediate life-safety urgency. Spell out EMERGENCY in the preamble; do not abbreviate it to E.
+
+P, Priority: important time-sensitive emergency-related traffic that does not meet Emergency precedence.
+
+W, Welfare: health-and-welfare inquiries or advisories concerning people in a disaster area. R, Routine: ordinary traffic.
+
+Current NTS 2.0 material also provides Certified handling for qualifying routine messages requiring confirmed delivery within 48 hours. Use the current origination procedure; do not invent a precedence code.
+
+The originator determines the appropriate urgency. Do not upgrade routine traffic to obtain faster service.
+
+References: Message procedure; Delivery standards
+
+Handling instructions A through F
+
+Current ARRL and RRI meanings, revised 2025-11-16. Do not use older cards for HXA.
+
+HXA: email or text delivery preferred.
+
+HXB: cancel if not delivered within the specified hours; service the origin.
+
+HXC: report delivery date and time to the origin.
+
+HXD: every handling station reports receive and relay or delivery details to the origin. Avoid during overloaded disaster circuits.
+
+HXE: obtain a reply and originate it back. HXF: hold delivery until the specified date.
+
+References: Current HX codes
+
+Handling instructions G through T
+
+HXG: if delivery involves expense, cancellation is permitted; service the origin.
+
+HXI: deliver as a radiogram-ICS-213 message.
+
+HXR: confirm the addressee has read the message and reply to the originator. Reserved for Emergency, Priority and Certified messages.
+
+HXT: special traffic-test message, with the specified test identifier.
+
+Keep parameters, combinations and net instructions with the message. For HXC and HXE, an addressee receiving directly on the air is responsible for the reply.
+
+References: Current HX codes
+
+Copy send and deliver traffic
+
+Copy exactly. Ask for fills before acknowledging. Use SAY AGAIN WORD AFTER, WORD BEFORE, or the requested group as your net procedure permits.
+
+Send at the receiving operator's copying speed. Spell ambiguous names and read numbers separately. Use breaks to separate address, text and signature.
+
+Read back critical locations, quantities and instructions. Log received-from, sent-to, UTC times and message number.
+
+For delivery, identify yourself, verify the recipient and read the exact message and signature. Record delivery or failure and send the required service message. Never fabricate a missing word.
+
+References: Message procedure; Delivery standards
+
+Numbered texts and ICS messages
+
+ARL numbered radiograms refer to standardized text. Use the current official list at both ends and fill all required blanks. An ARL-prefixed check counts the transmitted text groups.
+
+Do not guess an ARL number from memory or substitute an old list during a real incident. Plain-text messages avoid a mismatched lookup table.
+
+ICS 213 is a general-message form; a radiogram is a traffic transport format. They are not interchangeable without an agreed mapping.
+
+For radiogram-ICS-213 traffic, follow the current NTS encoding procedure and use HXI when required.
+
+References: Message procedure; Current HX codes; ICS forms

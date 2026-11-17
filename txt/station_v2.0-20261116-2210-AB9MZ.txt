@@ -1,0 +1,105 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Antennas power and station checks
+
+Choose a useful HF band
+
+For a regional path, 80 or 40 meters often deserves a first test. Daytime absorption, nighttime skip, season and interference can change the result.
+
+For a longer path, test 20 meters and then higher or lower bands as conditions suggest. Higher HF bands can be excellent when open and unusable when closed.
+
+NVIS uses a suitable low horizontal antenna and a band supported by current ionospheric conditions. It does not guarantee coverage.
+
+Write primary and alternate bands into the plan. Test with the actual destination instead of assuming a propagation forecast proves the path.
+
+Antenna length formulas
+
+Starting estimates for wire antennas in free space; installation, wire insulation, surroundings and matching affect final length.
+
+Half-wave dipole total feet = 468 divided by frequency in MHz.
+
+Each dipole leg feet = 234 divided by frequency in MHz.
+
+Quarter-wave vertical feet = 234 divided by frequency in MHz. It also needs a suitable return path or radial system.
+
+Wavelength meters is approximately 300 divided by frequency in MHz. Cut long, measure safely, and trim gradually.
+
+Dipole starting lengths
+
+MHz, Total feet, Each leg feet
+3.900, 120.0, 60.0
+5.360, 87.3, 43.7
+7.200, 65.0, 32.5
+14.250, 32.8, 16.4
+18.130, 25.8, 12.9
+21.300, 22.0, 11.0
+24.950, 18.8, 9.4
+28.400, 16.5, 8.2
+
+Calculated from 468 divided by MHz, rounded to 0.1 foot. Values are starting lengths, not guaranteed resonance or permission to transmit.
+
+Antenna and feed line setup
+
+Inspect connectors, insulators, strain relief and supports. Keep the antenna and its possible fall zone well away from power lines.
+
+Use a suitable balun or choke where needed. Keep feed line bends gentle and protect connectors from water.
+
+Mark guy lines and low wires with tactile and visible warnings. Keep walking routes clear and arrange assistance for unfamiliar sites.
+
+Measure at low power. A tuner can match the transmitter while substantial feed-line loss remains. A low SWR does not prove good radiation or a safe RF exposure distance.
+
+References: RF exposure; Electrical safety
+
+Power planning
+
+Average current = receive current times receive fraction, plus transmit current times transmit fraction.
+
+Example: receive 0.7 A for 80 percent and transmit 8 A for 20 percent gives 2.16 A average.
+
+A nominal 20 Ah battery with an assumed usable 16 Ah would give about 7.4 hours at 2.16 A before other losses. This is an estimate, not a runtime promise.
+
+Allow margin for temperature, aging, voltage cutoff, accessories and longer transmissions. Measure current and loaded voltage during the actual mission profile.
+
+DC power and batteries
+
+Confirm the equipment voltage range and connector polarity before connection. Similar connectors may be wired differently.
+
+Fuse the positive supply conductor near the battery according to cable capacity and equipment instructions. Protect exposed terminals and secure the battery.
+
+Use a charger matched to the exact battery chemistry and temperature limits. Follow manufacturer limits for lithium charging, especially below freezing.
+
+If voltage drops during transmit, inspect charge, wiring, connectors and cable size. Disconnect damaged, swelling, overheating or wet equipment safely.
+
+Electrical and RF safety
+
+Keep antennas, masts, tools and guy lines far enough from overhead wiring that no possible movement or fall can make contact. Obtain qualified help where clearance is uncertain.
+
+Do not operate a generator indoors, in a garage or near doors and windows. Use a suitable outdoor location and follow its instructions.
+
+Evaluate RF exposure for the actual antenna, power, duty cycle and public access. Do not use a universal distance rule.
+
+Arrange lightning precautions before storms. Stop outdoor antenna work early; use a safe shelter and the site safety plan.
+
+References: RF exposure; Electrical safety
+
+No receive or no transmit
+
+No receive: check power, volume, squelch, antenna, mode and frequency. Disable scan and receive tone filtering. Compare with a known signal.
+
+No transmit: check inhibit, PTT selection, busy lockout, band limits, split, interface and battery voltage under load.
+
+Carrier but no useful message: check microphone, audio routing, mode, digital settings, antenna and destination frequency.
+
+Change one item at a time and log the result. Restore the last known working setup before trying the next branch. Switch to the alternate path before the reporting deadline.
+
+Noise and interference
+
+Compare antenna connected versus disconnected, then battery power versus external power. Change one variable at a time.
+
+Disconnect suspected chargers, converters and USB devices individually. Keep power and data leads short; use appropriate ferrites and separation.
+
+If nearby transmitters desensitize the receiver, increase separation and test filtering. More transmit power may worsen the shared-site problem.
+
+For deliberate interference, avoid confrontation. Record time, frequency, mode, observations and any lawful recordings. Preserve facts and report through the appropriate coordinator or regulator.
+
+References: FCC rules; Volunteer Monitor

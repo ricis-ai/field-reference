@@ -1,0 +1,177 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+US band privileges
+
+Amateur rules before transmit
+
+Confirm the control operator, license class, authorized band, mode, power and location restrictions. Keep the entire occupied signal within the permitted segment.
+
+Identify at least every 10 minutes during a communication and at its end. Tactical identifiers do not replace your FCC call sign.
+
+Use the minimum necessary power. Avoid harmful interference. Messages must not be encoded to obscure their meaning, subject to the specific rule exceptions.
+
+Amateur authority does not grant routine access to public-safety, marine, aviation, CAP, MARS or SHARES channels.
+
+References: FCC rules
+
+How to read the band pages
+
+Scope: FCC-regulated stations in the contiguous United States, ITU Region 2. Do not apply these pages unchanged in other countries or regions.
+
+All HF numbers are MHz unless marked kHz. General, Advanced and Extra are separate license classes. Technician and legacy Novice have limited HF privileges.
+
+CW may generally be used throughout a segment authorized to the operator. Data segments here mean RTTY and data; phone segments mean phone and image, with CW also permitted.
+
+The listed endpoints are legal boundaries, not safe dial settings. Allow room for sidebands, drift and keying bandwidth.
+
+References: FCC rules; Band privileges
+
+160 and 80 meter data
+
+160 meters: 1.800-2.000. General, Advanced and Extra: CW, phone, image and data. Usual SSB convention is LSB.
+
+80 meters CW and data: Extra 3.500-3.600. Advanced and General 3.525-3.600.
+
+Technician and Novice: 3.525-3.600 CW only, maximum 200 W PEP output.
+
+The 75-meter phone privileges are on the next page. Most 80-meter regional voice work uses LSB.
+
+General maximum is 1500 W PEP output where no lower limit applies. Always use only the power needed.
+
+References: FCC rules; Band privileges
+
+75 meter phone
+
+Class Phone and image MHz
+Extra 3.600-4.000
+Advanced 3.700-4.000
+General 3.800-4.000
+Technician No phone privilege
+Novice No phone privilege
+
+Usual SSB convention is LSB. Keep lower sideband energy above your lower class boundary. A boundary frequency is not a usable LSB dial setting.
+
+References: FCC rules; Band privileges
+
+60 meters continuous segment
+
+Effective 2026-02-13: General, Advanced and Extra may use 5.3515-5.3665 MHz on a secondary basis.
+
+Maximum radiated power is 9.15 W ERP, equivalent to 15 W EIRP. Maximum occupied bandwidth is 2.8 kHz. ERP is not simply the transmitter power setting.
+
+The former channel centered on 5.3585 MHz is now inside this lower-power segment. Its old 100 W ERP limit no longer applies.
+
+Protect primary users. Check antenna gain and all signal edges. USB is the usual voice convention. No Technician or Novice privilege.
+
+References: FCC rules; 60 meters
+
+60 meters retained channels
+
+General, Advanced and Extra only. Four channels retain 100 W ERP maximum, with occupied bandwidth no greater than 2.8 kHz.
+
+USB dial kHz Channel center kHz
+5330.5 5332.0
+5346.5 5348.0
+5371.5 5373.0
+5403.5 5405.0
+
+CW carrier is at channel center. USB voice uses the lower dial value. Digital audio offset must place the emission correctly; confirm actual RF, not just the screen dial. Protect primary users.
+
+References: FCC rules; 60 meters
+
+40 meters
+
+Class CW and data MHz
+Extra 7.000-7.125
+Advanced 7.025-7.125
+General 7.025-7.125
+Tech and Novice 7.025-7.125 CW only
+
+Phone and image: Extra and Advanced 7.125-7.300; General 7.175-7.300. No Technician or Novice phone. Their CW power limit is 200 W PEP. Usual voice convention is LSB.
+
+References: FCC rules; Band privileges
+
+30 and 20 meters
+
+30 meters: 10.100-10.150, General, Advanced and Extra. CW and data only; no phone or image. Maximum 200 W PEP output. Protect primary fixed-service users.
+
+20-meter CW and data: Extra 14.000-14.150; Advanced and General 14.025-14.150.
+
+20-meter phone and image: Extra 14.150-14.350; Advanced 14.175-14.350; General 14.225-14.350.
+
+No Technician or Novice privileges on either band. Usual 20-meter voice convention is USB.
+
+References: FCC rules; Band privileges
+
+17 and 15 meters
+
+17 meters, General through Extra: CW and data 18.068-18.110; phone and image 18.110-18.168. Usual SSB is USB.
+
+15-meter CW and data: Extra 21.000-21.200; Advanced and General 21.025-21.200.
+
+15-meter phone and image: Extra 21.200-21.450; Advanced 21.225-21.450; General 21.275-21.450. Usual SSB is USB.
+
+Technician and Novice: 21.025-21.200 CW only, 200 W PEP maximum. Neither class has 17-meter privileges.
+
+References: FCC rules; Band privileges
+
+12 and 10 meters
+
+12 meters, General through Extra: CW and data 24.890-24.930; phone and image 24.930-24.990. Usual SSB is USB.
+
+10 meters, General through Extra: CW and data 28.000-28.300; phone and image 28.300-29.700. Usual SSB is USB.
+
+Technician and Novice: CW and data 28.000-28.300; CW and SSB phone 28.300-28.500; maximum 200 W PEP.
+
+Technician and Novice do not have 10-meter FM privileges or any 12-meter privileges. Observe the specific emission and bandwidth rules above 29 MHz.
+
+References: FCC rules; Band privileges
+
+VHF privileges
+
+Technician, General, Advanced and Extra have these bands, subject to mode and sharing rules.
+
+Band Allocation MHz
+6 meters 50-54
+2 meters 144-148
+1.25 meters 222-225
+
+50.0-50.1 and 144.0-144.1 are CW only. 219-220 MHz is restricted fixed digital forwarding, not a general voice band. Legacy Novice has 222-225 MHz at 25 W PEP maximum, not general VHF privileges.
+
+References: FCC rules; Band privileges
+
+UHF privileges
+
+Band Allocation MHz
+70 centimeters 420-450
+33 centimeters 902-928
+23 centimeters 1240-1300
+
+Technician through Extra. Check geographic restrictions, sharing requirements and power limits. 420-430 MHz is unavailable north of Line A. 902 MHz has significant western US exclusions. Legacy Novice has only 1270-1295 MHz at 5 W PEP maximum among these bands.
+
+References: FCC rules; Band privileges
+
+Microwave allocations
+
+Band Allocation GHz
+13 centimeters 2.300-2.310; 2.390-2.450
+5 centimeters 5.650-5.925
+3 centimeters 10.000-10.500
+1.2 centimeters 24.000-24.250
+6 millimeters 47.000-47.200
+
+Technician through Extra; sharing and technical restrictions apply. This is an allocation overview, not a repeater or channel plan. 3.3-3.5 GHz is not listed as a current US amateur allocation. Higher bands require a separate current-rule check.
+
+References: FCC rules
+
+2200 and 630 meters
+
+General, Advanced and Extra only. 2200 meters: 135.7-137.8 kHz; maximum 1 W EIRP and 1500 W PEP transmitter output.
+
+630 meters: 472-479 kHz; maximum 5 W EIRP and 500 W PEP transmitter output. In Alaska within 800 km of Russia, the EIRP limit is 1 W.
+
+Notify the Utilities Technology Council for the intended location and band. Wait 30 days and ensure no objection before transmitting. Follow PLC separation and antenna restrictions in 97.303(g).
+
+These electrically short antennas can have high voltage. Use a qualified design and keep people clear.
+
+References: FCC rules; Band privileges

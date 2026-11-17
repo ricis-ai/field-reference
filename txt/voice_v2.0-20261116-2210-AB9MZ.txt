@@ -1,0 +1,63 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Voice and repeater operation
+
+Plain language voice procedure
+
+OVER: I am finished and expect a reply. OUT: this exchange is finished. Do not combine them.
+
+SAY AGAIN: repeat the requested part. I SAY AGAIN: I am repeating. CORRECTION: replace the mistaken part that follows.
+
+ROGER: I received your transmission. It does not mean yes or that the task is complete.
+
+AFFIRMATIVE and NEGATIVE: yes and no. WAIT: pause briefly. READ BACK: repeat the message for verification.
+
+Use plain language on incident voice nets. Speak slowly, pause for copying, and identify uncertain information.
+
+References: Message procedure; ICS forms
+
+Calling frequencies
+
+Customary US starting points, not guaranteed monitoring or reserved emergency channels. Move ongoing contacts off busy calling frequencies.
+
+Use Frequency MHz
+6 m SSB 50.125 USB
+6 m FM 52.525 simplex
+2 m SSB 144.200 USB
+2 m FM 146.520 simplex
+1.25 m FM 223.500 simplex
+70 cm FM 446.000 simplex
+
+Regional band plans can differ. Verify the local coordinator plan before programming field channels.
+
+References: Band plans
+
+Repeater programming
+
+Record receive frequency and transmit frequency separately. Do not rely only on an offset symbol.
+
+Common US examples: 2 meters 0.600 MHz; 1.25 meters 1.600 MHz; 70 centimeters 5.000 MHz. Direction and exceptions depend on the repeater.
+
+CTCSS transmit tone opens access; receive tone squelch only controls what you hear. DCS codes and digital modes require the correct system settings.
+
+Set FM or the required digital mode, bandwidth and power. Test briefly with your call sign. A courtesy tone or signal meter alone does not prove your voice reached the destination.
+
+Repeater problem check
+
+Hear nothing: verify volume, squelch, receive frequency, antenna and mode. Temporarily disable receive tone squelch.
+
+Hear repeater but cannot access: verify transmit frequency, tone, power, battery under load and antenna. Check for busy lockout or transmit inhibit.
+
+Repeater responds but nobody hears voice: check microphone selection, mic gain, digital versus analog mode and any external interface.
+
+Leave pauses for emergency traffic, link delays and repeater timeout reset. Use the agreed simplex fallback when needed.
+
+UTC and coordinates
+
+Central Standard Time: add six hours to obtain UTC. Central Daylight Time: add five hours. Subtract for the reverse conversion; adjust the date at midnight.
+
+Example: 2026-10-31 at 21:00 CDT is 2026-11-01 at 02:00 UTC. Do not assume a fixed daylight-saving offset all year.
+
+Record 24-hour time and zone. Z means UTC. Say the date when midnight ambiguity matters.
+
+For positions, state format and datum: decimal degrees, degrees and decimal minutes, or degrees minutes seconds. Read north or south and east or west explicitly.

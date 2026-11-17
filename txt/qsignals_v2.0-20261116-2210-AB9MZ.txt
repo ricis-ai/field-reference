@@ -1,0 +1,67 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Q signals and net codes
+
+Q signals one
+
+A question mark turns a Q signal into a question. These are common amateur meanings; use plain language for public-service voice traffic.
+
+Code Statement or request
+QRL I am busy; frequency in use
+QRM Interference from signals
+QRN Atmospheric noise or static
+QRO Increase transmitter power
+QRP Decrease transmitter power
+QRQ Send faster
+QRS Send more slowly
+QRT Stop transmitting
+
+References: Q signals; Operating aids
+
+Q signals two
+
+Code Statement or request
+QRV I am ready
+QRX Wait; I will call again
+QRZ Who is calling me
+QSB Your signal is fading
+QSL I acknowledge receipt
+QSO Communicate directly
+QSY Change frequency
+QTH My location is
+QRG Your exact frequency is
+QSK I can hear between signals
+
+QSL confirms receipt; it does not guarantee a request was carried out. QRP also commonly describes low-power amateur operation.
+
+References: Q signals; Operating aids
+
+Q signals for traffic
+
+Code Statement or request
+QRU I have nothing for you
+QTC I have messages for you
+QSP I will relay
+QST General call to amateurs
+QTR The time is
+QSA Your signal strength is
+QSD Your keying is defective
+
+QST is customary amateur usage. Ask for fills in plain language whenever a code could be misunderstood.
+
+References: Q signals; Operating aids; Message procedure
+
+Traffic net QN signals
+
+QN signals below are specialized amateur traffic-net procedure, not the international Q-code series. Follow your net control.
+
+Code Net meaning
+QNI Report in or check in
+QNU Traffic for you; stand by
+QNX You are excused from net
+QNF Net is free or undirected
+QNC Traffic for all net stations
+QND Net is directed
+QNE Entire net stand by
+
+References: Message procedure

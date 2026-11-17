@@ -1,0 +1,95 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Digital modes and linked systems
+
+Digital voice and linked nodes
+
+DMR: verify frequency, color code, time slot, talkgroup and contact type. D-STAR, System Fusion, P25 and other systems require their own mode and routing settings.
+
+AllStarLink and EchoLink are network services, not RF modes. Their paths may depend on local power, a working node and internet.
+
+Before linking, listen and identify. Check that the destination permits the connection. Use only documented commands for that particular node.
+
+Prevent a stuck PTT or feedback loop. Test the local RF simplex path as an independent backup. Do not assume stored node numbers remain current.
+
+FT8 and FT4 setup
+
+Use the correct mode and frequency list in your installed software. Most HF operation uses USB or USB data even below 10 MHz.
+
+Confirm call sign, grid, computer clock, audio input and output, CAT control and PTT. Aim for clock error well below one second.
+
+Turn off speech processing. Set audio drive conservatively and follow the radio manual for ALC. Watch temperature and duty cycle.
+
+FT8 alternates 15-second periods; FT4 uses 7.5-second periods. Verify the selected transmit period and audio offset. Keep Enable Tx off until ready.
+
+References: WSJT X
+
+FT8 common dial frequencies
+
+Band USB dial MHz
+160 m 1.840
+80 m 3.573
+40 m 7.074
+30 m 10.136
+20 m 14.074
+17 m 18.100
+15 m 21.074
+12 m 24.915
+10 m 28.074
+6 m 50.313
+
+Customary dial values, not license privileges. Actual RF equals USB dial plus audio offset. On 60 m, use the dedicated band pages and current software guidance; 5.357 MHz is inside the reduced-power segment.
+
+References: Band plans; WSJT X
+
+FT4 and digital exchange
+
+Band Common FT4 USB MHz
+80 m 3.575
+40 m 7.0475
+30 m 10.140
+20 m 14.080
+17 m 18.104
+15 m 21.140
+12 m 24.919
+10 m 28.180
+
+Check the current software list. Typical FT8 exchange: calls and grid, signal report, R plus report, RR73, 73. A decode or automatic log entry does not prove a complete two-way contact.
+
+References: Band plans; WSJT X
+
+Winlink in the field
+
+Prepare the account, software, radio interface and a tested gateway or peer before departure. Download needed forms and channel information for offline use.
+
+Gateway service often uses internet beyond the RF hop. Radio-only and peer-to-peer need their own compatible configuration; an ordinary internet email address is not a direct RF destination.
+
+Choose the correct message type, connection mode and recipient. Keep messages short. Send a test and verify delivery with the recipient.
+
+An outbox clearing or gateway acceptance is not recipient acknowledgment. Follow up on critical messages.
+
+References: Winlink
+
+APRS and position reporting
+
+144.390 MHz FM is the customary terrestrial APRS frequency in North America. Confirm the local plan, path and mode before use.
+
+Set the correct call sign and SSID, position, symbol, comment and sensible beacon rate. Avoid aggressive digipeater paths.
+
+A transmitted packet is not proof it was received. A map report on the internet is not proof a field station can hear you.
+
+For messages, request and verify acknowledgment where supported. State coordinate format and datum when passing a position by voice.
+
+References: APRS
+
+Mesh and satellite backups
+
+Mesh: match hardware band, region, modem preset, channel and permitted security settings. Meshtastic, MeshCore and Reticulum are not automatically interoperable.
+
+Test the whole message path and acknowledgment. A paired phone or visible neighbor does not prove destination reachability.
+
+Part 15 operation and amateur licensed operation have different requirements. Do not mix amateur power privileges with encrypted amateur messages.
+
+Satellite: verify current spacecraft status, uplink, downlink, mode, pass and Doppler plan. Hear the downlink first; use minimum necessary power. Never transmit blindly at a remembered satellite frequency.
+
+References: FCC rules; Mesh settings; Mesh encryption; Satellite status

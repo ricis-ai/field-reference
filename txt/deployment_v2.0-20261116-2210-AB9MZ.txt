@@ -1,0 +1,37 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Accessible deployment
+
+Go kit check
+
+Radio: programmed memories, microphone or key, antenna, feed line, adapters, spare fuses, manual and offline configuration backup.
+
+Power: charged battery, safe leads, correct charger, distribution and a tested alternate.
+
+Operating: this book, local channel plan, pencils, forms, clock, light, magnifier or accessible device, and spare charging leads.
+
+Personal: identification, required credentials, water, food, clothing, medicines and accessibility equipment.
+
+Before leaving: prove a two-way contact, confirm the assignment and tell your designated contact the return plan.
+
+Accessible station setup
+
+Place radio, power, controls and forms in a repeatable layout. Put cables away from cane routes, mobility aids and walking paths.
+
+Label memories by function and place; add raised or braille identifiers where useful. Confirm that speech announces the actual frequency and mode.
+
+Provide audio or text confirmation of PTT, power and alarms. Do not depend on a red LED or any color alone.
+
+Use large print and glare control, with an accessible electronic backup. Agree on spoken readbacks and a buddy procedure for silent hazards or inaccessible displays.
+
+Deployment and demobilization
+
+Before travel: confirm assignment, site access, reporting location, supervisor, expected duration, personal needs and tested communications paths.
+
+On arrival: check in; obtain the current channel and safety plans; verify a two-way path; start the log.
+
+At relief: brief the next operator on pending messages, contacts, battery state, hazards and the last successful test.
+
+Before leaving: obtain release, close or transfer open traffic, check out, secure equipment and notify your accountability contact.
+
+Afterward: recharge, inspect, back up logs, document failures and update this book.

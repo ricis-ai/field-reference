@@ -1,0 +1,30 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Weather radio and storm reports
+
+Weather radio receive only
+
+NOAA frequency MHz
+162.400
+162.425
+162.450
+162.475
+162.500
+162.525
+162.550
+
+These are weather broadcast receive channels, not amateur transmit channels. Receiver channel numbering varies. Confirm the local station, reception and warning coverage; keep an independent alert method.
+
+References: Weather radio
+
+Storm spotter report
+
+Protect yourself first. Report from safe shelter or an approved observation point. Do not approach a tornado, floodwater, downed wiring or unstable debris.
+
+Give: what you observed; exact location; observation time and zone; whether still occurring; measured versus estimated size or speed; your call sign and callback.
+
+Distinguish direct observation from a relayed report. Never turn an estimate into a measured value.
+
+Use the current local NWS reporting criteria and route. Chicago serves much of northeastern Illinois; Milwaukee Sullivan serves much of southern Wisconsin. Verify the responsible office for the actual site.
+
+References: Storm spotting; Chicago weather; Milwaukee weather

@@ -1,0 +1,163 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Message forms logs and PACE plan
+
+ICS forms in the field
+
+ICS 205 records the incident radio communications plan. ICS 205A records communications contacts. Use the version approved by the incident.
+
+ICS 213 carries a general message and reply. It is not itself proof of delivery or action.
+
+ICS 214 records activities and significant events for the operational period.
+
+The following large-print worksheets support field notes. They are adaptations, not official FEMA forms. Transfer information to the required official form when the served agency requires it.
+
+Keep the approved channel plan, message-routing process and local safety instructions with the assignment.
+
+References: ICS forms
+
+General message worksheet
+
+Large-print adaptation for ICS 213 field notes.
+
+Incident: __________________________
+
+Date and time with zone: ______________
+
+To and position: _____________________
+
+From and position: ___________________
+
+Subject: ___________________________
+
+Approved by and position: ______________
+
+Message ID: ________________________
+
+References: ICS forms
+
+General message text and reply
+
+Message ID: ________________________
+
+Message text: _______________________
+
+_________________________________
+
+_________________________________
+
+_________________________________
+
+Reply and action status: _______________
+
+_________________________________
+
+Replied by and position: _______________
+
+Reply date and time with zone: __________
+
+References: ICS forms
+
+Activity log worksheet
+
+Large-print adaptation for ICS 214 notes. Copy this page as needed.
+
+Incident and operational period: _________
+
+Name and assignment: _________________
+
+Time and zone: ______________________
+
+Event or action: ______________________
+
+_________________________________
+
+Time and zone: ______________________
+
+Event or action: ______________________
+
+_________________________________
+
+Prepared by: ________________________
+
+References: ICS forms
+
+Channel plan worksheet
+
+Local field worksheet. Complete before use; do not substitute for an approved ICS 205.
+
+Function and channel name: ____________
+
+Receive MHz: _______________________
+
+Transmit MHz: _______________________
+
+Mode and bandwidth: _________________
+
+Transmit tone or digital settings: _________
+
+Receive tone if used: _________________
+
+Power and antenna: __________________
+
+Authorized by and verified date: __________
+
+References: ICS forms
+
+PACE communications plan
+
+Primary: ___________________________
+
+Alternate: __________________________
+
+Contingency: ________________________
+
+Emergency: _________________________
+
+For each path, write destination, channel, mode, schedule and how receipt is confirmed.
+
+Change to the next path after: ___________
+
+If isolated, meet or report at: ____________
+
+Avoid a shared point of failure. Two internet-linked repeaters may both fail with one network outage.
+
+Local contacts and nets
+
+Emergency: 911 where available.
+
+Assignment authority: _________________
+
+Net control and alternate: ______________
+
+ARES or RACES contact: _______________
+
+NTS net and UTC schedule: ______________
+
+Weather reporting route: _______________
+
+Family or accountability contact: __________
+
+Local simplex fallback: _________________
+
+Last verified date: ____________________
+
+Contact log worksheet
+
+Date UTC: __________________________
+
+Time UTC and station: _________________
+
+Frequency mode and report: ____________
+
+Message or action: ___________________
+
+_________________________________
+
+Time UTC and station: _________________
+
+Frequency mode and report: ____________
+
+Message or action: ___________________
+
+_________________________________

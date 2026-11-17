@@ -1,0 +1,13 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+MARS
+
+Military Auxiliary Radio System supports Department of Defense contingency communications. It is separate from routine amateur operation.
+
+Participation requires acceptance, training, assigned credentials and compliance with the applicable service program. Use only authorized frequencies, identifiers, modes and procedures.
+
+An amateur license or a radio advertised as MARS capable is not sufficient authority. A wideband modification alone provides no operating permission.
+
+Carry the current program-issued operating plan separately. Before switching services, verify identity, frequency, mode, power and authorization. Restore the amateur configuration when returning to amateur operation.
+
+References: Army MARS

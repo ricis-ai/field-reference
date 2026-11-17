@@ -1,0 +1,13 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+RACES
+
+Radio Amateur Civil Emergency Service is a rule-defined civil-defense communications service, not simply another name for an ARES net.
+
+Participating stations and control operators must meet 97.407 registration and certification requirements. Transmissions and contacts require the responsible civil-defense authorization.
+
+Traffic is limited to the civil-defense purposes in the rule. Training normally totals no more than one hour per week, with specified state-approved exercise exceptions.
+
+ARES and RACES roles can overlap locally, but enrollment, activation authority and permitted traffic must be confirmed separately.
+
+References: RACES

@@ -1,0 +1,37 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Using and printing this book
+
+Master and section editions
+
+This field reference is maintained as one master source. Use the master selector to choose the sections you want.
+
+Download a selected PDF for fixed large-print output, or a real Word document for editing. Individual section files are supplied in the complete kit.
+
+The complete phonetic alphabet has its own single page. Morse letters, numbers, punctuation and procedural signals use separate tables.
+
+Master content changes take effect in newly rebuilt editions. A Word or PDF already downloaded remains a snapshot of its revision.
+
+Print at actual size on letter paper, double-sided with long-edge flipping. Test one sheet before lamination.
+
+Print and bind
+
+Print one test sheet first. Choose US Letter, actual size or 100 percent, portrait, double-sided, and flip on the long edge. Disable booklet and multiple-pages-per-sheet options.
+
+The inner margin is 1.1 inches; the outer margin is 0.6 inch. Odd and even pages mirror for left-edge comb binding.
+
+Standard Rite in the Rain printer paper uses laser printing or photocopying, not inkjet. Confirm your exact paper and printer compatibility.
+
+Read the test in field lighting before printing the book. Test toner adhesion, duplex alignment, pouch heat and punching on scrap first.
+
+References: Printer paper
+
+Lamination and accessible use
+
+Use matte pouches if possible to reduce glare. Check the laminator, pouch and paper instructions for heat compatibility.
+
+A letter-size sheet normally needs a larger pouch to leave a sealed border. Do not trim through that border. Check the finished width against the comb punch and binding capacity.
+
+Keep punches in the reserved margin. Holes through the sealed area can admit water; test one finished sheet before making the rest.
+
+Use raised or braille divider labels. The master HTML has native section checkboxes, heading navigation, adjustable text and contrast. Download selected PDF and Word editions from that master.

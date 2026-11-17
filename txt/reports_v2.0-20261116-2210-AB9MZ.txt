@@ -1,0 +1,54 @@
+AB9MZ Master Field Reference, Edition 2.0
+
+Signal reporting
+
+Signal reports
+
+Voice usually uses readability and strength, such as five seven. CW adds tone, such as five seven nine. Give an honest report.
+
+Readability Description
+1 Unreadable
+2 Occasional words understood
+3 Readable with difficulty
+4 Readable with little difficulty
+5 Perfectly readable
+
+On FM, clear audio or noisy but readable is often more useful than a meter number. FT8 reports signal-to-noise ratio in dB, not RST.
+
+References: Operating aids
+
+Strength and tone
+
+Strength Description
+1 Barely perceptible
+2 Very weak
+3 Weak
+4 Fair
+5 Fairly good
+6 Good
+7 Moderately strong
+8 Strong
+9 Extremely strong
+
+CW tone 9 is a pure note. Lower tone numbers indicate increasing roughness or AC character. S meters are not uniformly calibrated.
+
+References: Operating aids
+
+CW tone scale
+
+Tone is the third digit of a CW RST report. These traditional descriptions are rarely needed with a clean modern transmitter.
+
+Tone Description
+1 Extremely rough AC note
+2 Very rough, unmusical
+3 Rough, low musical quality
+4 Moderately rough
+5 Musical with rough modulation
+6 Modulated musical note
+7 Near pure, trace of ripple
+8 Near pure, slight ripple
+9 Pure musical note
+
+Report a real problem when present; do not assign 9 automatically.
+
+References: Operating aids

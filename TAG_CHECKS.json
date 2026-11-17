@@ -1,0 +1,145 @@
+{
+  "sections": [
+    {
+      "section": "guide",
+      "pages": 3,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "phonetics",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "morse",
+      "pages": 10,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "emergency",
+      "pages": 3,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "voice",
+      "pages": 5,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "cw",
+      "pages": 2,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "qsignals",
+      "pages": 4,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "reports",
+      "pages": 3,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "bands",
+      "pages": 14,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "digital",
+      "pages": 7,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "station",
+      "pages": 9,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "deployment",
+      "pages": 3,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "ares",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "races",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "mars",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "cap",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "shares",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "observer",
+      "pages": 1,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "traffic",
+      "pages": 8,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "forms",
+      "pages": 8,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "weather",
+      "pages": 2,
+      "tagged": true,
+      "language": "en-US"
+    },
+    {
+      "section": "reference",
+      "pages": 2,
+      "tagged": true,
+      "language": "en-US"
+    }
+  ],
+  "full_pages": 112,
+  "tag_structure": {
+    "TH": 70,
+    "column_scoped_TH": 70,
+    "H1": 112
+  },
+  "tagged_language": "en-US",
+  "all_full_content_matched": true,
+  "pdf_ua_certified": false
+}

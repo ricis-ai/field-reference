@@ -1,0 +1,2800 @@
+{
+  "schema_version": 1,
+  "edition": "2.0",
+  "date": "2026-10-31",
+  "title": "Amateur Radio Field Reference",
+  "owner": "Gregory David Rosenberg AB9MZ",
+  "font_pt": 22,
+  "sources": [
+    {
+      "id": 1,
+      "title": "FCC rules",
+      "description": "47 CFR Part 97, especially 97.101, 97.111, 97.113, 97.119, 97.301 through 97.313, 97.403 through 97.407.",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97"
+    },
+    {
+      "id": 2,
+      "title": "Band privileges",
+      "description": "ARRL frequency allocations. Cross-check license privileges and geographic restrictions against FCC rules.",
+      "url": "https://www.arrl.org/frequency-allocations"
+    },
+    {
+      "id": 3,
+      "title": "60 meters",
+      "description": "ARRL 60 Meter Band. New rules effective 2026-02-13; four retained channels plus the new continuous segment.",
+      "url": "https://www.arrl.org/60-meter-band"
+    },
+    {
+      "id": 4,
+      "title": "Band plans",
+      "description": "ARRL voluntary band plans. Calling frequencies and customary mode use are not exclusive channel assignments.",
+      "url": "https://www.arrl.org/band-plan"
+    },
+    {
+      "id": 5,
+      "title": "Morse code",
+      "description": "ITU-R M.1677-1, International Morse code. Character values and timing reference.",
+      "url": "https://www.itu.int/rec/R-REC-M.1677/en"
+    },
+    {
+      "id": 6,
+      "title": "Q signals",
+      "description": "ITU-R M.1172, miscellaneous abbreviations and signals. Amateur shorthand can differ from formal service usage.",
+      "url": "https://www.itu.int/rec/R-REC-M.1172/en"
+    },
+    {
+      "id": 7,
+      "title": "Operating aids",
+      "description": "ARRL phonetics, RST, UTC and amateur Q signals.",
+      "url": "https://www.arrl.org/operating-aids"
+    },
+    {
+      "id": 8,
+      "title": "ARES",
+      "description": "ARRL Amateur Radio Emergency Service. Registration, local leadership and training.",
+      "url": "https://www.arrl.org/ares"
+    },
+    {
+      "id": 9,
+      "title": "RACES",
+      "description": "47 CFR 97.407. Registration, authorization, permitted traffic and exercise limits.",
+      "url": "https://www.ecfr.gov/current/title-47/section-97.407"
+    },
+    {
+      "id": 10,
+      "title": "Army MARS",
+      "description": "US Army MARS Frequently Asked Questions. Mission and participation requirements.",
+      "url": "https://www.usarmymars.org/frequently-asked-questions"
+    },
+    {
+      "id": 11,
+      "title": "Civil Air Patrol",
+      "description": "CAP national communications program. Use current CAP operational publications and authorized channel plans.",
+      "url": "https://www.gocivilairpatrol.com/programs/emergency-services/radio"
+    },
+    {
+      "id": 12,
+      "title": "CAP equipment",
+      "description": "Illinois Wing guidance on personally owned radio equipment and NTIA compliance.",
+      "url": "https://ilwg.cap.gov/members/wing-staff/communications/licensing-equipment"
+    },
+    {
+      "id": 13,
+      "title": "SHARES",
+      "description": "CISA SHARES registration information. Use the program office for current enrollment and operational material.",
+      "url": "https://www.cisa.gov/sites/default/files/publications/SHARES%20Registration%20Information-CISA.GOV_.pdf"
+    },
+    {
+      "id": 14,
+      "title": "SHARES overview",
+      "description": "NTIA Redbook chapter 12 section 16, SHARES HF Radio Program.",
+      "url": "https://redbookdev.ntia.gov/view/12-16"
+    },
+    {
+      "id": 15,
+      "title": "Volunteer Monitor",
+      "description": "ARRL Volunteer Monitor Program. Successor to the Official Observer program.",
+      "url": "https://www.arrl.org/volunteer-monitor-program"
+    },
+    {
+      "id": 16,
+      "title": "Traffic system",
+      "description": "ARRL National Traffic System and Methods and Practices Guidelines.",
+      "url": "https://www.arrl.org/nts"
+    },
+    {
+      "id": 17,
+      "title": "Message procedure",
+      "description": "ARRL NTS Methods and Practices Guidelines, including format and net procedures.",
+      "url": "https://www.arrl.org/appendix-b-nts-methods-and-practices-guidelines"
+    },
+    {
+      "id": 18,
+      "title": "Current HX codes",
+      "description": "ARRL and RRI handling instructions revised 2025-11-16. HXA now prefers email or text delivery.",
+      "url": "https://nts2.arrl.org/hx-handling-instructions/"
+    },
+    {
+      "id": 19,
+      "title": "Delivery standards",
+      "description": "NTS 2.0 Traffic Delivery Standard. Includes Certified traffic and confirmation requirements.",
+      "url": "https://nts2.arrl.org/nts-2-0-traffic-delivery-standard/"
+    },
+    {
+      "id": 20,
+      "title": "ICS forms",
+      "description": "FEMA ICS Resource Center. Official ICS 205, 205A, 213 and 214 forms and instructions.",
+      "url": "https://training.fema.gov/emiweb/is/icsresource/icsforms/"
+    },
+    {
+      "id": 21,
+      "title": "WSJT X",
+      "description": "WSJT-X development team user guide. Mode operation, time synchronization and radio setup.",
+      "url": "https://wsjtx.github.io/wsjtx/guide-full.html"
+    },
+    {
+      "id": 22,
+      "title": "Winlink",
+      "description": "Winlink system operating modes, including internet, radio-only and peer-to-peer.",
+      "url": "https://winlink.org/content/e_mail_or_without_internet"
+    },
+    {
+      "id": 23,
+      "title": "Weather radio",
+      "description": "National Weather Service NOAA Weather Radio frequencies and information.",
+      "url": "https://www.weather.gov/marine/wxradio"
+    },
+    {
+      "id": 24,
+      "title": "Storm spotting",
+      "description": "National Weather Service SKYWARN training and reporting resources.",
+      "url": "https://www.weather.gov/skywarn/"
+    },
+    {
+      "id": 25,
+      "title": "Chicago weather",
+      "description": "National Weather Service Chicago office. Local spotter criteria, warnings and training.",
+      "url": "https://www.weather.gov/lot/"
+    },
+    {
+      "id": 26,
+      "title": "Milwaukee weather",
+      "description": "National Weather Service Milwaukee Sullivan office. Southern Wisconsin resources.",
+      "url": "https://www.weather.gov/mkx/"
+    },
+    {
+      "id": 27,
+      "title": "Printer paper",
+      "description": "Rite in the Rain bulk printer paper. Standard product is intended for laser printing or photocopying, not inkjet.",
+      "url": "https://www.riteintherain.com/bulk-printer-paper"
+    },
+    {
+      "id": 28,
+      "title": "Mesh settings",
+      "description": "Meshtastic radio settings. Hardware, region, modem preset and licensed mode.",
+      "url": "https://meshtastic.org/docs/overview/radio-settings/"
+    },
+    {
+      "id": 29,
+      "title": "Mesh encryption",
+      "description": "Meshtastic encryption documentation. Licensed mode and the limits of channel privacy.",
+      "url": "https://meshtastic.org/docs/overview/encryption/"
+    },
+    {
+      "id": 30,
+      "title": "RF exposure",
+      "description": "FCC radio-frequency safety information and evaluation resources.",
+      "url": "https://www.fcc.gov/general/radio-frequency-safety-0"
+    },
+    {
+      "id": 31,
+      "title": "Electrical safety",
+      "description": "OSHA overhead power-line safety. Maintain clearance and use qualified assistance.",
+      "url": "https://www.osha.gov/electrical/overhead-power-lines"
+    },
+    {
+      "id": 32,
+      "title": "APRS",
+      "description": "APRS protocol and operating information from the APRS project.",
+      "url": "https://www.aprs.org/"
+    },
+    {
+      "id": 33,
+      "title": "Satellite status",
+      "description": "AMSAT status and satellite operating information. Confirm current mode and frequencies before use.",
+      "url": "https://www.amsat.org/status/"
+    },
+    {
+      "id": 34,
+      "title": "Morse procedures",
+      "description": "ARRL Methods and Practices Guidelines chapter 3. Joined prosigns and NTS usage.",
+      "url": "https://www.arrl.org/files/file/Public%20Service/MPG304A.pdf"
+    },
+    {
+      "id": 35,
+      "title": "Phonetic alphabet",
+      "description": "ISED Canada RIC 22 section 4.3. International spelling words; not a source for US license privileges.",
+      "url": "https://ised-isde.canada.ca/site/spectrum-management-telecommunications/en/licences-and-certificates/radiocom-information-circulars-ricpagination-orphans/ric-22/ric-22-general-radio-operating-procedures"
+    },
+    {
+      "id": 36,
+      "title": "Regional Morse extensions",
+      "description": "DJ7HS Precision CW Fistcheck author documentation. Extended characters are implementation conventions, not additions to the ITU core alphabet.",
+      "url": "https://www.qsl.net/dj7hs/help/helppcwfistchk.htm"
+    },
+    {
+      "id": 37,
+      "title": "Keyer punctuation conventions",
+      "description": "HamGadgets MasterKeyer MK 1 manual version 1.30, table 5, linked by its manufacturer. Includes underscore, ampersand and an alternate exclamation assignment.",
+      "url": "https://hamgadgets.com/downloads.html"
+    }
+  ],
+  "sections": [
+    {
+      "id": "guide",
+      "title": "Using and printing this book",
+      "pages": [
+        {
+          "title": "Master and section editions",
+          "paragraphs": [
+            "This field reference is maintained as one master source. Use the master selector to choose the sections you want.",
+            "Download a selected PDF for fixed large-print output, or a real Word document for editing. Individual section files are supplied in the complete kit.",
+            "The complete phonetic alphabet has its own single page. Morse letters, numbers, punctuation and procedural signals use separate tables.",
+            "Master content changes take effect in newly rebuilt editions. A Word or PDF already downloaded remains a snapshot of its revision.",
+            "Print at actual size on letter paper, double-sided with long-edge flipping. Test one sheet before lamination."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Start here",
+          "note": "",
+          "id": "guide-01",
+          "section_id": "guide"
+        },
+        {
+          "title": "Print and bind",
+          "paragraphs": [
+            "Print one test sheet first. Choose US Letter, actual size or 100 percent, portrait, double-sided, and flip on the long edge. Disable booklet and multiple-pages-per-sheet options.",
+            "The inner margin is 1.1 inches; the outer margin is 0.6 inch. Odd and even pages mirror for left-edge comb binding.",
+            "Standard Rite in the Rain printer paper uses laser printing or photocopying, not inkjet. Confirm your exact paper and printer compatibility.",
+            "Read the test in field lighting before printing the book. Test toner adhesion, duplex alignment, pouch heat and punching on scrap first."
+          ],
+          "table": null,
+          "refs": "27",
+          "group": "Start here",
+          "note": "",
+          "id": "guide-02",
+          "section_id": "guide"
+        },
+        {
+          "title": "Lamination and accessible use",
+          "paragraphs": [
+            "Use matte pouches if possible to reduce glare. Check the laminator, pouch and paper instructions for heat compatibility.",
+            "A letter-size sheet normally needs a larger pouch to leave a sealed border. Do not trim through that border. Check the finished width against the comb punch and binding capacity.",
+            "Keep punches in the reserved margin. Holes through the sealed area can admit water; test one finished sheet before making the rest.",
+            "Use raised or braille divider labels. The master HTML has native section checkboxes, heading navigation, adjustable text and contrast. Download selected PDF and Word editions from that master."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Start here",
+          "note": "",
+          "id": "guide-03",
+          "section_id": "guide"
+        }
+      ]
+    },
+    {
+      "id": "phonetics",
+      "title": "Phonetic alphabet",
+      "pages": [
+        {
+          "title": "Phonetic alphabet",
+          "paragraphs": [],
+          "table": [
+            [
+              "A-M",
+              "Word",
+              "N-Z",
+              "Word"
+            ],
+            [
+              "A",
+              "Alfa",
+              "N",
+              "November"
+            ],
+            [
+              "B",
+              "Bravo",
+              "O",
+              "Oscar"
+            ],
+            [
+              "C",
+              "Charlie",
+              "P",
+              "Papa"
+            ],
+            [
+              "D",
+              "Delta",
+              "Q",
+              "Quebec"
+            ],
+            [
+              "E",
+              "Echo",
+              "R",
+              "Romeo"
+            ],
+            [
+              "F",
+              "Foxtrot",
+              "S",
+              "Sierra"
+            ],
+            [
+              "G",
+              "Golf",
+              "T",
+              "Tango"
+            ],
+            [
+              "H",
+              "Hotel",
+              "U",
+              "Uniform"
+            ],
+            [
+              "I",
+              "India",
+              "V",
+              "Victor"
+            ],
+            [
+              "J",
+              "Juliett",
+              "W",
+              "Whiskey"
+            ],
+            [
+              "K",
+              "Kilo",
+              "X",
+              "X ray"
+            ],
+            [
+              "L",
+              "Lima",
+              "Y",
+              "Yankee"
+            ],
+            [
+              "M",
+              "Mike",
+              "Z",
+              "Zulu"
+            ]
+          ],
+          "note": "Read down A to M, then N to Z. Alfa and Juliett are the international spellings.",
+          "refs": "35",
+          "group": "Phonetics",
+          "col_widths": [
+            88,
+            156.8,
+            88,
+            156.8
+          ],
+          "id": "phonetics-01",
+          "section_id": "phonetics"
+        }
+      ]
+    },
+    {
+      "id": "morse",
+      "title": "Morse code and procedural signals",
+      "pages": [
+        {
+          "title": "Morse letters",
+          "paragraphs": [],
+          "table": [
+            [
+              "A-M",
+              "Morse",
+              "N-Z",
+              "Morse"
+            ],
+            [
+              "A",
+              ".-",
+              "N",
+              "-."
+            ],
+            [
+              "B",
+              "-...",
+              "O",
+              "---"
+            ],
+            [
+              "C",
+              "-.-.",
+              "P",
+              ".--."
+            ],
+            [
+              "D",
+              "-..",
+              "Q",
+              "--.-"
+            ],
+            [
+              "E",
+              ".",
+              "R",
+              ".-."
+            ],
+            [
+              "F",
+              "..-.",
+              "S",
+              "..."
+            ],
+            [
+              "G",
+              "--.",
+              "T",
+              "-"
+            ],
+            [
+              "H",
+              "....",
+              "U",
+              "..-"
+            ],
+            [
+              "I",
+              "..",
+              "V",
+              "...-"
+            ],
+            [
+              "J",
+              ".---",
+              "W",
+              ".--"
+            ],
+            [
+              "K",
+              "-.-",
+              "X",
+              "-..-"
+            ],
+            [
+              "L",
+              ".-..",
+              "Y",
+              "-.--"
+            ],
+            [
+              "M",
+              "--",
+              "Z",
+              "--.."
+            ]
+          ],
+          "note": "A dot is dit; a dash is dah. These are character patterns, not phonetic spelling words.",
+          "refs": "5",
+          "group": "Morse",
+          "col_widths": [
+            88,
+            156.8,
+            88,
+            156.8
+          ],
+          "id": "morse-01",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse numbers",
+          "paragraphs": [],
+          "table": [
+            [
+              "Digit",
+              "Morse"
+            ],
+            [
+              "0",
+              "-----"
+            ],
+            [
+              "1",
+              ".----"
+            ],
+            [
+              "2",
+              "..---"
+            ],
+            [
+              "3",
+              "...--"
+            ],
+            [
+              "4",
+              "....-"
+            ],
+            [
+              "5",
+              "....."
+            ],
+            [
+              "6",
+              "-...."
+            ],
+            [
+              "7",
+              "--..."
+            ],
+            [
+              "8",
+              "---.."
+            ],
+            [
+              "9",
+              "----."
+            ]
+          ],
+          "note": "",
+          "refs": "5",
+          "group": "Morse",
+          "id": "morse-02",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse punctuation 1",
+          "paragraphs": [],
+          "table": [
+            [
+              "Character",
+              "Morse"
+            ],
+            [
+              "Period .",
+              ".-.-.-"
+            ],
+            [
+              "Comma ,",
+              "--..--"
+            ],
+            [
+              "Colon :",
+              "---..."
+            ],
+            [
+              "Question mark ?",
+              "..--.."
+            ],
+            [
+              "Apostrophe '",
+              ".----."
+            ],
+            [
+              "Hyphen -",
+              "-....-"
+            ],
+            [
+              "Slash /",
+              "-..-."
+            ]
+          ],
+          "note": "Core character assignments from ITU R M.1677. Some patterns also serve procedural meanings in the appropriate context.",
+          "refs": "5",
+          "group": "Morse",
+          "col_widths": [
+            280,
+            209.6
+          ],
+          "id": "morse-03",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse punctuation 2",
+          "paragraphs": [],
+          "table": [
+            [
+              "Character",
+              "Morse"
+            ],
+            [
+              "Quotation marks \"",
+              ".-..-."
+            ],
+            [
+              "Left parenthesis (",
+              "-.--."
+            ],
+            [
+              "Right parenthesis )",
+              "-.--.-"
+            ],
+            [
+              "Equals =",
+              "-...-"
+            ],
+            [
+              "Plus +",
+              ".-.-."
+            ],
+            [
+              "At sign @",
+              ".--.-."
+            ],
+            [
+              "Multiply x",
+              "-..-"
+            ]
+          ],
+          "note": "Core character assignments from ITU R M.1677. Some patterns also serve procedural meanings in the appropriate context.",
+          "refs": "5",
+          "group": "Morse",
+          "col_widths": [
+            280,
+            209.6
+          ],
+          "id": "morse-04",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse procedural signals 1",
+          "paragraphs": [],
+          "table": [
+            [
+              "Signal",
+              "Morse",
+              "Meaning"
+            ],
+            [
+              "AR",
+              ".-.-.",
+              "End of message"
+            ],
+            [
+              "BT",
+              "-...-",
+              "Separate message text"
+            ],
+            [
+              "AS",
+              ".-...",
+              "Wait"
+            ],
+            [
+              "SK or VA",
+              "...-.-",
+              "End of work or contact"
+            ],
+            [
+              "SN or VE",
+              "...-.",
+              "Understood"
+            ]
+          ],
+          "note": "Angle brackets or an overbar denote a joined prosign. Send its elements with no letter gap. K is a single-letter procedural signal. Follow the net procedure.",
+          "refs": "5, 34",
+          "group": "Morse",
+          "col_widths": [
+            130,
+            150,
+            209.6
+          ],
+          "id": "morse-05",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse procedural signals 2",
+          "paragraphs": [],
+          "table": [
+            [
+              "Signal",
+              "Morse",
+              "Meaning"
+            ],
+            [
+              "CT or KA",
+              "-.-.-",
+              "Starting signal"
+            ],
+            [
+              "HH",
+              "........",
+              "Error"
+            ],
+            [
+              "KN",
+              "-.--.",
+              "Named station only"
+            ],
+            [
+              "AA",
+              ".-.-",
+              "New line in NTS address"
+            ],
+            [
+              "K",
+              "-.-",
+              "Invitation to transmit"
+            ]
+          ],
+          "note": "Angle brackets or an overbar denote a joined prosign. Send its elements with no letter gap. K is a single-letter procedural signal. Follow the net procedure.",
+          "refs": "5, 34",
+          "group": "Morse",
+          "col_widths": [
+            130,
+            150,
+            209.6
+          ],
+          "id": "morse-06",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse accented letters and digraph",
+          "paragraphs": [],
+          "table": [
+            [
+              "Character",
+              "Morse"
+            ],
+            [
+              "É or é",
+              "..-.."
+            ],
+            [
+              "Ä or ä",
+              ".-.-"
+            ],
+            [
+              "Á or á",
+              ".--.-"
+            ],
+            [
+              "Å or å",
+              ".--.-"
+            ],
+            [
+              "Ç or ç",
+              "-.-.."
+            ],
+            [
+              "Ñ or ñ",
+              "--.--"
+            ],
+            [
+              "Ö or ö",
+              "---."
+            ],
+            [
+              "Ü or ü",
+              "..--"
+            ],
+            [
+              "CH joined",
+              "----"
+            ]
+          ],
+          "note": "Accented E appears in the ITU core. The other entries are regional or software extensions documented by DJ7HS. They are not extra phonetic alphabet words.",
+          "refs": "5, 36",
+          "group": "Morse",
+          "col_widths": [
+            250,
+            239.6
+          ],
+          "id": "morse-07",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse extension punctuation",
+          "paragraphs": [
+            "Extensions differ between implementations. These examples come from DJ7HS Fistcheck and the HamGadgets MK 1 manual; they are not an ITU punctuation extension."
+          ],
+          "table": [
+            [
+              "Symbol",
+              "Morse"
+            ],
+            [
+              "Dollar $",
+              "...-..-"
+            ],
+            [
+              "Semicolon ;",
+              "-.-.-."
+            ],
+            [
+              "Underscore _",
+              "..--.-"
+            ],
+            [
+              "Ampersand &",
+              ".-..."
+            ],
+            [
+              "Exclamation MK1 !",
+              "-.-.--"
+            ],
+            [
+              "Exclamation Fistcheck !",
+              "..--."
+            ]
+          ],
+          "note": "The two exclamation patterns are alternatives, not interchangeable letters. MK 1 USB keyboard ampersand sends spaced ES instead. Agree on the character set or spell the symbol in words.",
+          "refs": "36, 37",
+          "group": "Morse",
+          "col_widths": [
+            310,
+            179.6
+          ],
+          "id": "morse-08",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse symbols sent as sequences",
+          "paragraphs": [
+            "Percent has no separate core character. ITU procedure sends the characters 0/0. Per thousand uses 0/00. These contain normal character gaps.",
+            "For 2 percent, send 2-0/0. A minute sign after a number uses the apostrophe signal once; a seconds sign uses it twice.",
+            "Do not invent a joined signal for a symbol with no agreed assignment. In plain amateur correspondence, spelling its name may avoid ambiguity."
+          ],
+          "table": null,
+          "note": "",
+          "refs": "5",
+          "group": "Morse",
+          "id": "morse-09",
+          "section_id": "morse"
+        },
+        {
+          "title": "Morse timing and distress",
+          "paragraphs": [
+            "A dit is one time unit. A dah is three units. Gaps are one unit within a character, three between characters, and seven between words.",
+            "SOS is ...---... as one continuous distress signal. There are no S O S letter gaps. Use it for distress, not for a routine test.",
+            "For the PARIS speed standard, dit duration in milliseconds is 1200 divided by words per minute. At 20 WPM, a dit lasts 60 milliseconds."
+          ],
+          "table": null,
+          "note": "",
+          "refs": "5",
+          "group": "Morse",
+          "id": "morse-10",
+          "section_id": "morse"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency operating procedures",
+      "pages": [
+        {
+          "title": "Immediate emergency message",
+          "paragraphs": [
+            "Use 911 or the responsible agency directly when available. If radio is your usable path, call on a monitored, authorized frequency.",
+            "Say: EMERGENCY, EMERGENCY. This is AB9MZ. I need emergency assistance.",
+            "Give: exact location and access point; what happened; immediate hazards; number of people needing help; assistance needed; your callback or monitoring frequency.",
+            "Ask the receiving station to repeat the location and request. Record who accepted the message and when. Remain available for questions.",
+            "Do not assume that a calling frequency or repeater is monitored."
+          ],
+          "table": null,
+          "refs": "1, 20",
+          "group": "Emergency",
+          "note": "",
+          "id": "emergency-01",
+          "section_id": "emergency"
+        },
+        {
+          "title": "Field station first contact",
+          "paragraphs": [
+            "1. Confirm a safe site, battery polarity, correct antenna and clear feed line. Start at low power.",
+            "2. Read back frequency, mode, power, offset and tone from the plan. Disable scan, unintended split, VOX and automatic transmit.",
+            "3. Listen first. Ask whether the frequency is in use. Give your call and request a brief radio check.",
+            "4. Exchange an actual message with the intended destination. Confirm intelligibility both ways and log the test.",
+            "5. If it fails, try the agreed alternate. Prove the path before starting the assignment."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Emergency",
+          "note": "",
+          "id": "emergency-02",
+          "section_id": "emergency"
+        },
+        {
+          "title": "Net check in and emergency break",
+          "paragraphs": [
+            "Listen for net control and the requested check-in order. Avoid transmitting over another station.",
+            "Check-in: AB9MZ, Gregg, at Shelter One. One priority message for Operations. Battery station, available for two hours.",
+            "Emergency break: EMERGENCY, AB9MZ. Wait for acknowledgment, then give the essential facts.",
+            "For a directed net, obtain permission before changing frequency or leaving. If you lose contact, follow the written lost-communications plan.",
+            "Tactical names identify assignments. Give the required FCC call sign as well."
+          ],
+          "table": null,
+          "refs": "1, 17",
+          "group": "Emergency",
+          "note": "",
+          "id": "emergency-03",
+          "section_id": "emergency"
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "title": "Voice and repeater operation",
+      "pages": [
+        {
+          "title": "Plain language voice procedure",
+          "paragraphs": [
+            "OVER: I am finished and expect a reply. OUT: this exchange is finished. Do not combine them.",
+            "SAY AGAIN: repeat the requested part. I SAY AGAIN: I am repeating. CORRECTION: replace the mistaken part that follows.",
+            "ROGER: I received your transmission. It does not mean yes or that the task is complete.",
+            "AFFIRMATIVE and NEGATIVE: yes and no. WAIT: pause briefly. READ BACK: repeat the message for verification.",
+            "Use plain language on incident voice nets. Speak slowly, pause for copying, and identify uncertain information."
+          ],
+          "table": null,
+          "refs": "17, 20",
+          "group": "Operating",
+          "note": "",
+          "id": "voice-01",
+          "section_id": "voice"
+        },
+        {
+          "title": "Calling frequencies",
+          "paragraphs": [
+            "Customary US starting points, not guaranteed monitoring or reserved emergency channels. Move ongoing contacts off busy calling frequencies."
+          ],
+          "table": [
+            [
+              "Use",
+              "Frequency MHz"
+            ],
+            [
+              "6 m SSB",
+              "50.125 USB"
+            ],
+            [
+              "6 m FM",
+              "52.525 simplex"
+            ],
+            [
+              "2 m SSB",
+              "144.200 USB"
+            ],
+            [
+              "2 m FM",
+              "146.520 simplex"
+            ],
+            [
+              "1.25 m FM",
+              "223.500 simplex"
+            ],
+            [
+              "70 cm FM",
+              "446.000 simplex"
+            ]
+          ],
+          "refs": "4",
+          "group": "Operating",
+          "note": "Regional band plans can differ. Verify the local coordinator plan before programming field channels.",
+          "id": "voice-02",
+          "section_id": "voice"
+        },
+        {
+          "title": "Repeater programming",
+          "paragraphs": [
+            "Record receive frequency and transmit frequency separately. Do not rely only on an offset symbol.",
+            "Common US examples: 2 meters 0.600 MHz; 1.25 meters 1.600 MHz; 70 centimeters 5.000 MHz. Direction and exceptions depend on the repeater.",
+            "CTCSS transmit tone opens access; receive tone squelch only controls what you hear. DCS codes and digital modes require the correct system settings.",
+            "Set FM or the required digital mode, bandwidth and power. Test briefly with your call sign. A courtesy tone or signal meter alone does not prove your voice reached the destination."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Operating",
+          "note": "",
+          "id": "voice-03",
+          "section_id": "voice"
+        },
+        {
+          "title": "Repeater problem check",
+          "paragraphs": [
+            "Hear nothing: verify volume, squelch, receive frequency, antenna and mode. Temporarily disable receive tone squelch.",
+            "Hear repeater but cannot access: verify transmit frequency, tone, power, battery under load and antenna. Check for busy lockout or transmit inhibit.",
+            "Repeater responds but nobody hears voice: check microphone selection, mic gain, digital versus analog mode and any external interface.",
+            "Leave pauses for emergency traffic, link delays and repeater timeout reset. Use the agreed simplex fallback when needed."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Operating",
+          "note": "",
+          "id": "voice-04",
+          "section_id": "voice"
+        },
+        {
+          "title": "UTC and coordinates",
+          "paragraphs": [
+            "Central Standard Time: add six hours to obtain UTC. Central Daylight Time: add five hours. Subtract for the reverse conversion; adjust the date at midnight.",
+            "Example: 2026-10-31 at 21:00 CDT is 2026-11-01 at 02:00 UTC. Do not assume a fixed daylight-saving offset all year.",
+            "Record 24-hour time and zone. Z means UTC. Say the date when midnight ambiguity matters.",
+            "For positions, state format and datum: decimal degrees, degrees and decimal minutes, or degrees minutes seconds. Read north or south and east or west explicitly."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Operating",
+          "note": "",
+          "id": "voice-05",
+          "section_id": "voice"
+        }
+      ]
+    },
+    {
+      "id": "cw",
+      "title": "CW abbreviations",
+      "pages": [
+        {
+          "title": "CW abbreviations one",
+          "paragraphs": [],
+          "table": [
+            [
+              "Code",
+              "Meaning"
+            ],
+            [
+              "AGN",
+              "Again"
+            ],
+            [
+              "BK",
+              "Break or back to you"
+            ],
+            [
+              "CQ",
+              "Calling any station"
+            ],
+            [
+              "DE",
+              "From or this is"
+            ],
+            [
+              "ES",
+              "And"
+            ],
+            [
+              "FB",
+              "Fine business"
+            ],
+            [
+              "GA",
+              "Go ahead or good afternoon"
+            ],
+            [
+              "GE",
+              "Good evening"
+            ],
+            [
+              "GM",
+              "Good morning"
+            ],
+            [
+              "HW",
+              "How do you copy"
+            ],
+            [
+              "K",
+              "Invitation to transmit"
+            ],
+            [
+              "NR",
+              "Number"
+            ]
+          ],
+          "refs": "6, 17",
+          "group": "Codes",
+          "note": "",
+          "id": "cw-01",
+          "section_id": "cw"
+        },
+        {
+          "title": "CW abbreviations two",
+          "paragraphs": [],
+          "table": [
+            [
+              "Code",
+              "Meaning"
+            ],
+            [
+              "OM",
+              "Old man, traditional term"
+            ],
+            [
+              "PSE",
+              "Please"
+            ],
+            [
+              "R",
+              "Received"
+            ],
+            [
+              "RIG",
+              "Radio equipment"
+            ],
+            [
+              "RPT",
+              "Repeat or report"
+            ],
+            [
+              "RST",
+              "Readability strength tone"
+            ],
+            [
+              "RX or RCVR",
+              "Receiver"
+            ],
+            [
+              "TNX or TU",
+              "Thanks or thank you"
+            ],
+            [
+              "TX or XMTR",
+              "Transmitter"
+            ],
+            [
+              "UR",
+              "Your or you are"
+            ],
+            [
+              "WX",
+              "Weather"
+            ],
+            [
+              "73",
+              "Best regards"
+            ]
+          ],
+          "refs": "6, 17",
+          "group": "Codes",
+          "note": "",
+          "id": "cw-02",
+          "section_id": "cw"
+        }
+      ]
+    },
+    {
+      "id": "qsignals",
+      "title": "Q signals and net codes",
+      "pages": [
+        {
+          "title": "Q signals one",
+          "paragraphs": [
+            "A question mark turns a Q signal into a question. These are common amateur meanings; use plain language for public-service voice traffic."
+          ],
+          "table": [
+            [
+              "Code",
+              "Statement or request"
+            ],
+            [
+              "QRL",
+              "I am busy; frequency in use"
+            ],
+            [
+              "QRM",
+              "Interference from signals"
+            ],
+            [
+              "QRN",
+              "Atmospheric noise or static"
+            ],
+            [
+              "QRO",
+              "Increase transmitter power"
+            ],
+            [
+              "QRP",
+              "Decrease transmitter power"
+            ],
+            [
+              "QRQ",
+              "Send faster"
+            ],
+            [
+              "QRS",
+              "Send more slowly"
+            ],
+            [
+              "QRT",
+              "Stop transmitting"
+            ]
+          ],
+          "refs": "6, 7",
+          "group": "Codes",
+          "note": "",
+          "id": "qsignals-01",
+          "section_id": "qsignals"
+        },
+        {
+          "title": "Q signals two",
+          "paragraphs": [],
+          "table": [
+            [
+              "Code",
+              "Statement or request"
+            ],
+            [
+              "QRV",
+              "I am ready"
+            ],
+            [
+              "QRX",
+              "Wait; I will call again"
+            ],
+            [
+              "QRZ",
+              "Who is calling me"
+            ],
+            [
+              "QSB",
+              "Your signal is fading"
+            ],
+            [
+              "QSL",
+              "I acknowledge receipt"
+            ],
+            [
+              "QSO",
+              "Communicate directly"
+            ],
+            [
+              "QSY",
+              "Change frequency"
+            ],
+            [
+              "QTH",
+              "My location is"
+            ],
+            [
+              "QRG",
+              "Your exact frequency is"
+            ],
+            [
+              "QSK",
+              "I can hear between signals"
+            ]
+          ],
+          "refs": "6, 7",
+          "group": "Codes",
+          "note": "QSL confirms receipt; it does not guarantee a request was carried out. QRP also commonly describes low-power amateur operation.",
+          "id": "qsignals-02",
+          "section_id": "qsignals"
+        },
+        {
+          "title": "Q signals for traffic",
+          "paragraphs": [],
+          "table": [
+            [
+              "Code",
+              "Statement or request"
+            ],
+            [
+              "QRU",
+              "I have nothing for you"
+            ],
+            [
+              "QTC",
+              "I have messages for you"
+            ],
+            [
+              "QSP",
+              "I will relay"
+            ],
+            [
+              "QST",
+              "General call to amateurs"
+            ],
+            [
+              "QTR",
+              "The time is"
+            ],
+            [
+              "QSA",
+              "Your signal strength is"
+            ],
+            [
+              "QSD",
+              "Your keying is defective"
+            ]
+          ],
+          "refs": "6, 7, 17",
+          "group": "Codes",
+          "note": "QST is customary amateur usage. Ask for fills in plain language whenever a code could be misunderstood.",
+          "id": "qsignals-03",
+          "section_id": "qsignals"
+        },
+        {
+          "title": "Traffic net QN signals",
+          "paragraphs": [
+            "QN signals below are specialized amateur traffic-net procedure, not the international Q-code series. Follow your net control."
+          ],
+          "table": [
+            [
+              "Code",
+              "Net meaning"
+            ],
+            [
+              "QNI",
+              "Report in or check in"
+            ],
+            [
+              "QNU",
+              "Traffic for you; stand by"
+            ],
+            [
+              "QNX",
+              "You are excused from net"
+            ],
+            [
+              "QNF",
+              "Net is free or undirected"
+            ],
+            [
+              "QNC",
+              "Traffic for all net stations"
+            ],
+            [
+              "QND",
+              "Net is directed"
+            ],
+            [
+              "QNE",
+              "Entire net stand by"
+            ]
+          ],
+          "refs": "17",
+          "group": "Codes",
+          "note": "",
+          "id": "qsignals-04",
+          "section_id": "qsignals"
+        }
+      ]
+    },
+    {
+      "id": "reports",
+      "title": "Signal reporting",
+      "pages": [
+        {
+          "title": "Signal reports",
+          "paragraphs": [
+            "Voice usually uses readability and strength, such as five seven. CW adds tone, such as five seven nine. Give an honest report."
+          ],
+          "table": [
+            [
+              "Readability",
+              "Description"
+            ],
+            [
+              "1",
+              "Unreadable"
+            ],
+            [
+              "2",
+              "Occasional words understood"
+            ],
+            [
+              "3",
+              "Readable with difficulty"
+            ],
+            [
+              "4",
+              "Readable with little difficulty"
+            ],
+            [
+              "5",
+              "Perfectly readable"
+            ]
+          ],
+          "refs": "7",
+          "group": "Codes",
+          "note": "On FM, clear audio or noisy but readable is often more useful than a meter number. FT8 reports signal-to-noise ratio in dB, not RST.",
+          "id": "reports-01",
+          "section_id": "reports"
+        },
+        {
+          "title": "Strength and tone",
+          "paragraphs": [],
+          "table": [
+            [
+              "Strength",
+              "Description"
+            ],
+            [
+              "1",
+              "Barely perceptible"
+            ],
+            [
+              "2",
+              "Very weak"
+            ],
+            [
+              "3",
+              "Weak"
+            ],
+            [
+              "4",
+              "Fair"
+            ],
+            [
+              "5",
+              "Fairly good"
+            ],
+            [
+              "6",
+              "Good"
+            ],
+            [
+              "7",
+              "Moderately strong"
+            ],
+            [
+              "8",
+              "Strong"
+            ],
+            [
+              "9",
+              "Extremely strong"
+            ]
+          ],
+          "refs": "7",
+          "group": "Codes",
+          "note": "CW tone 9 is a pure note. Lower tone numbers indicate increasing roughness or AC character. S meters are not uniformly calibrated.",
+          "id": "reports-02",
+          "section_id": "reports"
+        },
+        {
+          "title": "CW tone scale",
+          "paragraphs": [
+            "Tone is the third digit of a CW RST report. These traditional descriptions are rarely needed with a clean modern transmitter."
+          ],
+          "table": [
+            [
+              "Tone",
+              "Description"
+            ],
+            [
+              "1",
+              "Extremely rough AC note"
+            ],
+            [
+              "2",
+              "Very rough, unmusical"
+            ],
+            [
+              "3",
+              "Rough, low musical quality"
+            ],
+            [
+              "4",
+              "Moderately rough"
+            ],
+            [
+              "5",
+              "Musical with rough modulation"
+            ],
+            [
+              "6",
+              "Modulated musical note"
+            ],
+            [
+              "7",
+              "Near pure, trace of ripple"
+            ],
+            [
+              "8",
+              "Near pure, slight ripple"
+            ],
+            [
+              "9",
+              "Pure musical note"
+            ]
+          ],
+          "refs": "7",
+          "group": "Codes",
+          "note": "Report a real problem when present; do not assign 9 automatically.",
+          "id": "reports-03",
+          "section_id": "reports"
+        }
+      ]
+    },
+    {
+      "id": "bands",
+      "title": "US band privileges",
+      "pages": [
+        {
+          "title": "Amateur rules before transmit",
+          "paragraphs": [
+            "Confirm the control operator, license class, authorized band, mode, power and location restrictions. Keep the entire occupied signal within the permitted segment.",
+            "Identify at least every 10 minutes during a communication and at its end. Tactical identifiers do not replace your FCC call sign.",
+            "Use the minimum necessary power. Avoid harmful interference. Messages must not be encoded to obscure their meaning, subject to the specific rule exceptions.",
+            "Amateur authority does not grant routine access to public-safety, marine, aviation, CAP, MARS or SHARES channels."
+          ],
+          "table": null,
+          "refs": "1",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-01",
+          "section_id": "bands"
+        },
+        {
+          "title": "How to read the band pages",
+          "paragraphs": [
+            "Scope: FCC-regulated stations in the contiguous United States, ITU Region 2. Do not apply these pages unchanged in other countries or regions.",
+            "All HF numbers are MHz unless marked kHz. General, Advanced and Extra are separate license classes. Technician and legacy Novice have limited HF privileges.",
+            "CW may generally be used throughout a segment authorized to the operator. Data segments here mean RTTY and data; phone segments mean phone and image, with CW also permitted.",
+            "The listed endpoints are legal boundaries, not safe dial settings. Allow room for sidebands, drift and keying bandwidth."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-02",
+          "section_id": "bands"
+        },
+        {
+          "title": "160 and 80 meter data",
+          "paragraphs": [
+            "160 meters: 1.800-2.000. General, Advanced and Extra: CW, phone, image and data. Usual SSB convention is LSB.",
+            "80 meters CW and data: Extra 3.500-3.600. Advanced and General 3.525-3.600.",
+            "Technician and Novice: 3.525-3.600 CW only, maximum 200 W PEP output.",
+            "The 75-meter phone privileges are on the next page. Most 80-meter regional voice work uses LSB.",
+            "General maximum is 1500 W PEP output where no lower limit applies. Always use only the power needed."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-03",
+          "section_id": "bands"
+        },
+        {
+          "title": "75 meter phone",
+          "paragraphs": [],
+          "table": [
+            [
+              "Class",
+              "Phone and image MHz"
+            ],
+            [
+              "Extra",
+              "3.600-4.000"
+            ],
+            [
+              "Advanced",
+              "3.700-4.000"
+            ],
+            [
+              "General",
+              "3.800-4.000"
+            ],
+            [
+              "Technician",
+              "No phone privilege"
+            ],
+            [
+              "Novice",
+              "No phone privilege"
+            ]
+          ],
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "Usual SSB convention is LSB. Keep lower sideband energy above your lower class boundary. A boundary frequency is not a usable LSB dial setting.",
+          "id": "bands-04",
+          "section_id": "bands"
+        },
+        {
+          "title": "60 meters continuous segment",
+          "paragraphs": [
+            "Effective 2026-02-13: General, Advanced and Extra may use 5.3515-5.3665 MHz on a secondary basis.",
+            "Maximum radiated power is 9.15 W ERP, equivalent to 15 W EIRP. Maximum occupied bandwidth is 2.8 kHz. ERP is not simply the transmitter power setting.",
+            "The former channel centered on 5.3585 MHz is now inside this lower-power segment. Its old 100 W ERP limit no longer applies.",
+            "Protect primary users. Check antenna gain and all signal edges. USB is the usual voice convention. No Technician or Novice privilege."
+          ],
+          "table": null,
+          "refs": "1, 3",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-05",
+          "section_id": "bands"
+        },
+        {
+          "title": "60 meters retained channels",
+          "paragraphs": [
+            "General, Advanced and Extra only. Four channels retain 100 W ERP maximum, with occupied bandwidth no greater than 2.8 kHz."
+          ],
+          "table": [
+            [
+              "USB dial kHz",
+              "Channel center kHz"
+            ],
+            [
+              "5330.5",
+              "5332.0"
+            ],
+            [
+              "5346.5",
+              "5348.0"
+            ],
+            [
+              "5371.5",
+              "5373.0"
+            ],
+            [
+              "5403.5",
+              "5405.0"
+            ]
+          ],
+          "refs": "1, 3",
+          "group": "Bands",
+          "note": "CW carrier is at channel center. USB voice uses the lower dial value. Digital audio offset must place the emission correctly; confirm actual RF, not just the screen dial. Protect primary users.",
+          "id": "bands-06",
+          "section_id": "bands"
+        },
+        {
+          "title": "40 meters",
+          "paragraphs": [],
+          "table": [
+            [
+              "Class",
+              "CW and data MHz"
+            ],
+            [
+              "Extra",
+              "7.000-7.125"
+            ],
+            [
+              "Advanced",
+              "7.025-7.125"
+            ],
+            [
+              "General",
+              "7.025-7.125"
+            ],
+            [
+              "Tech and Novice",
+              "7.025-7.125 CW only"
+            ]
+          ],
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "Phone and image: Extra and Advanced 7.125-7.300; General 7.175-7.300. No Technician or Novice phone. Their CW power limit is 200 W PEP. Usual voice convention is LSB.",
+          "id": "bands-07",
+          "section_id": "bands"
+        },
+        {
+          "title": "30 and 20 meters",
+          "paragraphs": [
+            "30 meters: 10.100-10.150, General, Advanced and Extra. CW and data only; no phone or image. Maximum 200 W PEP output. Protect primary fixed-service users.",
+            "20-meter CW and data: Extra 14.000-14.150; Advanced and General 14.025-14.150.",
+            "20-meter phone and image: Extra 14.150-14.350; Advanced 14.175-14.350; General 14.225-14.350.",
+            "No Technician or Novice privileges on either band. Usual 20-meter voice convention is USB."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-08",
+          "section_id": "bands"
+        },
+        {
+          "title": "17 and 15 meters",
+          "paragraphs": [
+            "17 meters, General through Extra: CW and data 18.068-18.110; phone and image 18.110-18.168. Usual SSB is USB.",
+            "15-meter CW and data: Extra 21.000-21.200; Advanced and General 21.025-21.200.",
+            "15-meter phone and image: Extra 21.200-21.450; Advanced 21.225-21.450; General 21.275-21.450. Usual SSB is USB.",
+            "Technician and Novice: 21.025-21.200 CW only, 200 W PEP maximum. Neither class has 17-meter privileges."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-09",
+          "section_id": "bands"
+        },
+        {
+          "title": "12 and 10 meters",
+          "paragraphs": [
+            "12 meters, General through Extra: CW and data 24.890-24.930; phone and image 24.930-24.990. Usual SSB is USB.",
+            "10 meters, General through Extra: CW and data 28.000-28.300; phone and image 28.300-29.700. Usual SSB is USB.",
+            "Technician and Novice: CW and data 28.000-28.300; CW and SSB phone 28.300-28.500; maximum 200 W PEP.",
+            "Technician and Novice do not have 10-meter FM privileges or any 12-meter privileges. Observe the specific emission and bandwidth rules above 29 MHz."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-10",
+          "section_id": "bands"
+        },
+        {
+          "title": "VHF privileges",
+          "paragraphs": [
+            "Technician, General, Advanced and Extra have these bands, subject to mode and sharing rules."
+          ],
+          "table": [
+            [
+              "Band",
+              "Allocation MHz"
+            ],
+            [
+              "6 meters",
+              "50-54"
+            ],
+            [
+              "2 meters",
+              "144-148"
+            ],
+            [
+              "1.25 meters",
+              "222-225"
+            ]
+          ],
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "50.0-50.1 and 144.0-144.1 are CW only. 219-220 MHz is restricted fixed digital forwarding, not a general voice band. Legacy Novice has 222-225 MHz at 25 W PEP maximum, not general VHF privileges.",
+          "id": "bands-11",
+          "section_id": "bands"
+        },
+        {
+          "title": "UHF privileges",
+          "paragraphs": [],
+          "table": [
+            [
+              "Band",
+              "Allocation MHz"
+            ],
+            [
+              "70 centimeters",
+              "420-450"
+            ],
+            [
+              "33 centimeters",
+              "902-928"
+            ],
+            [
+              "23 centimeters",
+              "1240-1300"
+            ]
+          ],
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "Technician through Extra. Check geographic restrictions, sharing requirements and power limits. 420-430 MHz is unavailable north of Line A. 902 MHz has significant western US exclusions. Legacy Novice has only 1270-1295 MHz at 5 W PEP maximum among these bands.",
+          "id": "bands-12",
+          "section_id": "bands"
+        },
+        {
+          "title": "Microwave allocations",
+          "paragraphs": [],
+          "table": [
+            [
+              "Band",
+              "Allocation GHz"
+            ],
+            [
+              "13 centimeters",
+              "2.300-2.310; 2.390-2.450"
+            ],
+            [
+              "5 centimeters",
+              "5.650-5.925"
+            ],
+            [
+              "3 centimeters",
+              "10.000-10.500"
+            ],
+            [
+              "1.2 centimeters",
+              "24.000-24.250"
+            ],
+            [
+              "6 millimeters",
+              "47.000-47.200"
+            ]
+          ],
+          "refs": "1",
+          "group": "Bands",
+          "note": "Technician through Extra; sharing and technical restrictions apply. This is an allocation overview, not a repeater or channel plan. 3.3-3.5 GHz is not listed as a current US amateur allocation. Higher bands require a separate current-rule check.",
+          "id": "bands-13",
+          "section_id": "bands"
+        },
+        {
+          "title": "2200 and 630 meters",
+          "paragraphs": [
+            "General, Advanced and Extra only. 2200 meters: 135.7-137.8 kHz; maximum 1 W EIRP and 1500 W PEP transmitter output.",
+            "630 meters: 472-479 kHz; maximum 5 W EIRP and 500 W PEP transmitter output. In Alaska within 800 km of Russia, the EIRP limit is 1 W.",
+            "Notify the Utilities Technology Council for the intended location and band. Wait 30 days and ensure no objection before transmitting. Follow PLC separation and antenna restrictions in 97.303(g).",
+            "These electrically short antennas can have high voltage. Use a qualified design and keep people clear."
+          ],
+          "table": null,
+          "refs": "1, 2",
+          "group": "Bands",
+          "note": "",
+          "id": "bands-14",
+          "section_id": "bands"
+        }
+      ]
+    },
+    {
+      "id": "digital",
+      "title": "Digital modes and linked systems",
+      "pages": [
+        {
+          "title": "Digital voice and linked nodes",
+          "paragraphs": [
+            "DMR: verify frequency, color code, time slot, talkgroup and contact type. D-STAR, System Fusion, P25 and other systems require their own mode and routing settings.",
+            "AllStarLink and EchoLink are network services, not RF modes. Their paths may depend on local power, a working node and internet.",
+            "Before linking, listen and identify. Check that the destination permits the connection. Use only documented commands for that particular node.",
+            "Prevent a stuck PTT or feedback loop. Test the local RF simplex path as an independent backup. Do not assume stored node numbers remain current."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Digital",
+          "note": "",
+          "id": "digital-01",
+          "section_id": "digital"
+        },
+        {
+          "title": "FT8 and FT4 setup",
+          "paragraphs": [
+            "Use the correct mode and frequency list in your installed software. Most HF operation uses USB or USB data even below 10 MHz.",
+            "Confirm call sign, grid, computer clock, audio input and output, CAT control and PTT. Aim for clock error well below one second.",
+            "Turn off speech processing. Set audio drive conservatively and follow the radio manual for ALC. Watch temperature and duty cycle.",
+            "FT8 alternates 15-second periods; FT4 uses 7.5-second periods. Verify the selected transmit period and audio offset. Keep Enable Tx off until ready."
+          ],
+          "table": null,
+          "refs": "21",
+          "group": "Digital",
+          "note": "",
+          "id": "digital-02",
+          "section_id": "digital"
+        },
+        {
+          "title": "FT8 common dial frequencies",
+          "paragraphs": [],
+          "table": [
+            [
+              "Band",
+              "USB dial MHz"
+            ],
+            [
+              "160 m",
+              "1.840"
+            ],
+            [
+              "80 m",
+              "3.573"
+            ],
+            [
+              "40 m",
+              "7.074"
+            ],
+            [
+              "30 m",
+              "10.136"
+            ],
+            [
+              "20 m",
+              "14.074"
+            ],
+            [
+              "17 m",
+              "18.100"
+            ],
+            [
+              "15 m",
+              "21.074"
+            ],
+            [
+              "12 m",
+              "24.915"
+            ],
+            [
+              "10 m",
+              "28.074"
+            ],
+            [
+              "6 m",
+              "50.313"
+            ]
+          ],
+          "refs": "4, 21",
+          "group": "Digital",
+          "note": "Customary dial values, not license privileges. Actual RF equals USB dial plus audio offset. On 60 m, use the dedicated band pages and current software guidance; 5.357 MHz is inside the reduced-power segment.",
+          "id": "digital-03",
+          "section_id": "digital"
+        },
+        {
+          "title": "FT4 and digital exchange",
+          "paragraphs": [],
+          "table": [
+            [
+              "Band",
+              "Common FT4 USB MHz"
+            ],
+            [
+              "80 m",
+              "3.575"
+            ],
+            [
+              "40 m",
+              "7.0475"
+            ],
+            [
+              "30 m",
+              "10.140"
+            ],
+            [
+              "20 m",
+              "14.080"
+            ],
+            [
+              "17 m",
+              "18.104"
+            ],
+            [
+              "15 m",
+              "21.140"
+            ],
+            [
+              "12 m",
+              "24.919"
+            ],
+            [
+              "10 m",
+              "28.180"
+            ]
+          ],
+          "refs": "4, 21",
+          "group": "Digital",
+          "note": "Check the current software list. Typical FT8 exchange: calls and grid, signal report, R plus report, RR73, 73. A decode or automatic log entry does not prove a complete two-way contact.",
+          "id": "digital-04",
+          "section_id": "digital"
+        },
+        {
+          "title": "Winlink in the field",
+          "paragraphs": [
+            "Prepare the account, software, radio interface and a tested gateway or peer before departure. Download needed forms and channel information for offline use.",
+            "Gateway service often uses internet beyond the RF hop. Radio-only and peer-to-peer need their own compatible configuration; an ordinary internet email address is not a direct RF destination.",
+            "Choose the correct message type, connection mode and recipient. Keep messages short. Send a test and verify delivery with the recipient.",
+            "An outbox clearing or gateway acceptance is not recipient acknowledgment. Follow up on critical messages."
+          ],
+          "table": null,
+          "refs": "22",
+          "group": "Digital",
+          "note": "",
+          "id": "digital-05",
+          "section_id": "digital"
+        },
+        {
+          "title": "APRS and position reporting",
+          "paragraphs": [
+            "144.390 MHz FM is the customary terrestrial APRS frequency in North America. Confirm the local plan, path and mode before use.",
+            "Set the correct call sign and SSID, position, symbol, comment and sensible beacon rate. Avoid aggressive digipeater paths.",
+            "A transmitted packet is not proof it was received. A map report on the internet is not proof a field station can hear you.",
+            "For messages, request and verify acknowledgment where supported. State coordinate format and datum when passing a position by voice."
+          ],
+          "table": null,
+          "refs": "32",
+          "group": "Digital",
+          "note": "",
+          "id": "digital-06",
+          "section_id": "digital"
+        },
+        {
+          "title": "Mesh and satellite backups",
+          "paragraphs": [
+            "Mesh: match hardware band, region, modem preset, channel and permitted security settings. Meshtastic, MeshCore and Reticulum are not automatically interoperable.",
+            "Test the whole message path and acknowledgment. A paired phone or visible neighbor does not prove destination reachability.",
+            "Part 15 operation and amateur licensed operation have different requirements. Do not mix amateur power privileges with encrypted amateur messages.",
+            "Satellite: verify current spacecraft status, uplink, downlink, mode, pass and Doppler plan. Hear the downlink first; use minimum necessary power. Never transmit blindly at a remembered satellite frequency."
+          ],
+          "table": null,
+          "refs": "1, 28, 29, 33",
+          "group": "Digital",
+          "note": "",
+          "id": "digital-07",
+          "section_id": "digital"
+        }
+      ]
+    },
+    {
+      "id": "station",
+      "title": "Antennas power and station checks",
+      "pages": [
+        {
+          "title": "Choose a useful HF band",
+          "paragraphs": [
+            "For a regional path, 80 or 40 meters often deserves a first test. Daytime absorption, nighttime skip, season and interference can change the result.",
+            "For a longer path, test 20 meters and then higher or lower bands as conditions suggest. Higher HF bands can be excellent when open and unusable when closed.",
+            "NVIS uses a suitable low horizontal antenna and a band supported by current ionospheric conditions. It does not guarantee coverage.",
+            "Write primary and alternate bands into the plan. Test with the actual destination instead of assuming a propagation forecast proves the path."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Station",
+          "note": "",
+          "id": "station-01",
+          "section_id": "station"
+        },
+        {
+          "title": "Antenna length formulas",
+          "paragraphs": [
+            "Starting estimates for wire antennas in free space; installation, wire insulation, surroundings and matching affect final length.",
+            "Half-wave dipole total feet = 468 divided by frequency in MHz.",
+            "Each dipole leg feet = 234 divided by frequency in MHz.",
+            "Quarter-wave vertical feet = 234 divided by frequency in MHz. It also needs a suitable return path or radial system.",
+            "Wavelength meters is approximately 300 divided by frequency in MHz. Cut long, measure safely, and trim gradually."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Station",
+          "note": "",
+          "id": "station-02",
+          "section_id": "station"
+        },
+        {
+          "title": "Dipole starting lengths",
+          "paragraphs": [],
+          "table": [
+            [
+              "MHz",
+              "Total feet",
+              "Each leg feet"
+            ],
+            [
+              "3.900",
+              "120.0",
+              "60.0"
+            ],
+            [
+              "5.360",
+              "87.3",
+              "43.7"
+            ],
+            [
+              "7.200",
+              "65.0",
+              "32.5"
+            ],
+            [
+              "14.250",
+              "32.8",
+              "16.4"
+            ],
+            [
+              "18.130",
+              "25.8",
+              "12.9"
+            ],
+            [
+              "21.300",
+              "22.0",
+              "11.0"
+            ],
+            [
+              "24.950",
+              "18.8",
+              "9.4"
+            ],
+            [
+              "28.400",
+              "16.5",
+              "8.2"
+            ]
+          ],
+          "refs": "",
+          "group": "Station",
+          "note": "Calculated from 468 divided by MHz, rounded to 0.1 foot. Values are starting lengths, not guaranteed resonance or permission to transmit.",
+          "id": "station-03",
+          "section_id": "station"
+        },
+        {
+          "title": "Antenna and feed line setup",
+          "paragraphs": [
+            "Inspect connectors, insulators, strain relief and supports. Keep the antenna and its possible fall zone well away from power lines.",
+            "Use a suitable balun or choke where needed. Keep feed line bends gentle and protect connectors from water.",
+            "Mark guy lines and low wires with tactile and visible warnings. Keep walking routes clear and arrange assistance for unfamiliar sites.",
+            "Measure at low power. A tuner can match the transmitter while substantial feed-line loss remains. A low SWR does not prove good radiation or a safe RF exposure distance."
+          ],
+          "table": null,
+          "refs": "30, 31",
+          "group": "Station",
+          "note": "",
+          "id": "station-04",
+          "section_id": "station"
+        },
+        {
+          "title": "Power planning",
+          "paragraphs": [
+            "Average current = receive current times receive fraction, plus transmit current times transmit fraction.",
+            "Example: receive 0.7 A for 80 percent and transmit 8 A for 20 percent gives 2.16 A average.",
+            "A nominal 20 Ah battery with an assumed usable 16 Ah would give about 7.4 hours at 2.16 A before other losses. This is an estimate, not a runtime promise.",
+            "Allow margin for temperature, aging, voltage cutoff, accessories and longer transmissions. Measure current and loaded voltage during the actual mission profile."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Station",
+          "note": "",
+          "id": "station-05",
+          "section_id": "station"
+        },
+        {
+          "title": "DC power and batteries",
+          "paragraphs": [
+            "Confirm the equipment voltage range and connector polarity before connection. Similar connectors may be wired differently.",
+            "Fuse the positive supply conductor near the battery according to cable capacity and equipment instructions. Protect exposed terminals and secure the battery.",
+            "Use a charger matched to the exact battery chemistry and temperature limits. Follow manufacturer limits for lithium charging, especially below freezing.",
+            "If voltage drops during transmit, inspect charge, wiring, connectors and cable size. Disconnect damaged, swelling, overheating or wet equipment safely."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Station",
+          "note": "",
+          "id": "station-06",
+          "section_id": "station"
+        },
+        {
+          "title": "Electrical and RF safety",
+          "paragraphs": [
+            "Keep antennas, masts, tools and guy lines far enough from overhead wiring that no possible movement or fall can make contact. Obtain qualified help where clearance is uncertain.",
+            "Do not operate a generator indoors, in a garage or near doors and windows. Use a suitable outdoor location and follow its instructions.",
+            "Evaluate RF exposure for the actual antenna, power, duty cycle and public access. Do not use a universal distance rule.",
+            "Arrange lightning precautions before storms. Stop outdoor antenna work early; use a safe shelter and the site safety plan."
+          ],
+          "table": null,
+          "refs": "30, 31",
+          "group": "Station",
+          "note": "",
+          "id": "station-07",
+          "section_id": "station"
+        },
+        {
+          "title": "No receive or no transmit",
+          "paragraphs": [
+            "No receive: check power, volume, squelch, antenna, mode and frequency. Disable scan and receive tone filtering. Compare with a known signal.",
+            "No transmit: check inhibit, PTT selection, busy lockout, band limits, split, interface and battery voltage under load.",
+            "Carrier but no useful message: check microphone, audio routing, mode, digital settings, antenna and destination frequency.",
+            "Change one item at a time and log the result. Restore the last known working setup before trying the next branch. Switch to the alternate path before the reporting deadline."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Station",
+          "note": "",
+          "id": "station-08",
+          "section_id": "station"
+        },
+        {
+          "title": "Noise and interference",
+          "paragraphs": [
+            "Compare antenna connected versus disconnected, then battery power versus external power. Change one variable at a time.",
+            "Disconnect suspected chargers, converters and USB devices individually. Keep power and data leads short; use appropriate ferrites and separation.",
+            "If nearby transmitters desensitize the receiver, increase separation and test filtering. More transmit power may worsen the shared-site problem.",
+            "For deliberate interference, avoid confrontation. Record time, frequency, mode, observations and any lawful recordings. Preserve facts and report through the appropriate coordinator or regulator."
+          ],
+          "table": null,
+          "refs": "1, 15",
+          "group": "Station",
+          "note": "",
+          "id": "station-09",
+          "section_id": "station"
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "title": "Accessible deployment",
+      "pages": [
+        {
+          "title": "Go kit check",
+          "paragraphs": [
+            "Radio: programmed memories, microphone or key, antenna, feed line, adapters, spare fuses, manual and offline configuration backup.",
+            "Power: charged battery, safe leads, correct charger, distribution and a tested alternate.",
+            "Operating: this book, local channel plan, pencils, forms, clock, light, magnifier or accessible device, and spare charging leads.",
+            "Personal: identification, required credentials, water, food, clothing, medicines and accessibility equipment.",
+            "Before leaving: prove a two-way contact, confirm the assignment and tell your designated contact the return plan."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Deployment",
+          "note": "",
+          "id": "deployment-01",
+          "section_id": "deployment"
+        },
+        {
+          "title": "Accessible station setup",
+          "paragraphs": [
+            "Place radio, power, controls and forms in a repeatable layout. Put cables away from cane routes, mobility aids and walking paths.",
+            "Label memories by function and place; add raised or braille identifiers where useful. Confirm that speech announces the actual frequency and mode.",
+            "Provide audio or text confirmation of PTT, power and alarms. Do not depend on a red LED or any color alone.",
+            "Use large print and glare control, with an accessible electronic backup. Agree on spoken readbacks and a buddy procedure for silent hazards or inaccessible displays."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Deployment",
+          "note": "",
+          "id": "deployment-02",
+          "section_id": "deployment"
+        },
+        {
+          "title": "Deployment and demobilization",
+          "paragraphs": [
+            "Before travel: confirm assignment, site access, reporting location, supervisor, expected duration, personal needs and tested communications paths.",
+            "On arrival: check in; obtain the current channel and safety plans; verify a two-way path; start the log.",
+            "At relief: brief the next operator on pending messages, contacts, battery state, hazards and the last successful test.",
+            "Before leaving: obtain release, close or transfer open traffic, check out, secure equipment and notify your accountability contact.",
+            "Afterward: recharge, inspect, back up logs, document failures and update this book."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Deployment",
+          "note": "",
+          "id": "deployment-03",
+          "section_id": "deployment"
+        }
+      ]
+    },
+    {
+      "id": "ares",
+      "title": "ARES",
+      "pages": [
+        {
+          "title": "ARES",
+          "paragraphs": [
+            "Amateur Radio Emergency Service is an ARRL public-service organization. Licensed amateurs register qualifications and equipment with local leadership.",
+            "Contact the local Emergency Coordinator. Ask about training, credentialing, assignments and the served-agency communications plan. ARRL membership is not required to apply.",
+            "For an activation: receive an assignment, check in, follow the incident organization, pass accurate messages and log your work.",
+            "ARES membership does not authorize self-deployment, entry into a restricted site, or transmission outside your license privileges."
+          ],
+          "table": null,
+          "refs": "8",
+          "group": "Services",
+          "note": "",
+          "id": "ares-01",
+          "section_id": "ares"
+        }
+      ]
+    },
+    {
+      "id": "races",
+      "title": "RACES",
+      "pages": [
+        {
+          "title": "RACES",
+          "paragraphs": [
+            "Radio Amateur Civil Emergency Service is a rule-defined civil-defense communications service, not simply another name for an ARES net.",
+            "Participating stations and control operators must meet 97.407 registration and certification requirements. Transmissions and contacts require the responsible civil-defense authorization.",
+            "Traffic is limited to the civil-defense purposes in the rule. Training normally totals no more than one hour per week, with specified state-approved exercise exceptions.",
+            "ARES and RACES roles can overlap locally, but enrollment, activation authority and permitted traffic must be confirmed separately."
+          ],
+          "table": null,
+          "refs": "9",
+          "group": "Services",
+          "note": "",
+          "id": "races-01",
+          "section_id": "races"
+        }
+      ]
+    },
+    {
+      "id": "mars",
+      "title": "MARS",
+      "pages": [
+        {
+          "title": "MARS",
+          "paragraphs": [
+            "Military Auxiliary Radio System supports Department of Defense contingency communications. It is separate from routine amateur operation.",
+            "Participation requires acceptance, training, assigned credentials and compliance with the applicable service program. Use only authorized frequencies, identifiers, modes and procedures.",
+            "An amateur license or a radio advertised as MARS capable is not sufficient authority. A wideband modification alone provides no operating permission.",
+            "Carry the current program-issued operating plan separately. Before switching services, verify identity, frequency, mode, power and authorization. Restore the amateur configuration when returning to amateur operation."
+          ],
+          "table": null,
+          "refs": "10",
+          "group": "Services",
+          "note": "",
+          "id": "mars-01",
+          "section_id": "mars"
+        }
+      ]
+    },
+    {
+      "id": "cap",
+      "title": "Civil Air Patrol",
+      "pages": [
+        {
+          "title": "Civil Air Patrol",
+          "paragraphs": [
+            "CAP uses its own authorized HF and VHF communications networks, including analog and digital systems. These are distinct from amateur bands.",
+            "Use current CAP training, qualifications, mission authorization and approved channel plans. Personally owned equipment must satisfy applicable NTIA and CAP requirements.",
+            "Do not substitute an amateur radio merely because it can tune to a CAP channel. Frequency coverage does not establish equipment compliance or operator authorization.",
+            "Keep the current mission channel plan with the radio. Use CAP-assigned identifiers and procedures when operating in that service."
+          ],
+          "table": null,
+          "refs": "11, 12",
+          "group": "Services",
+          "note": "",
+          "id": "cap-01",
+          "section_id": "cap"
+        }
+      ]
+    },
+    {
+      "id": "shares",
+      "title": "SHARES",
+      "pages": [
+        {
+          "title": "SHARES",
+          "paragraphs": [
+            "Shared Resources High Frequency Radio Program coordinates existing HF capabilities for national-security and emergency-preparedness communications.",
+            "Participation is organizational and requires program enrollment and authorization. An amateur license alone does not confer access to SHARES channels.",
+            "Use the current program-issued directory, operational instructions, identifiers and equipment requirements. Record the sponsoring organization and responsible communications official in the deployment packet.",
+            "Treat SHARES and amateur operation as separate service configurations. Verify the full authorized setup before transmitting; do not use an internet frequency list as an operational assignment."
+          ],
+          "table": null,
+          "refs": "13, 14",
+          "group": "Services",
+          "note": "",
+          "id": "shares-01",
+          "section_id": "shares"
+        }
+      ]
+    },
+    {
+      "id": "observer",
+      "title": "Official Observer and Volunteer Monitor",
+      "pages": [
+        {
+          "title": "Official Observer and Volunteer Monitor",
+          "paragraphs": [
+            "Historical term: Official Observer, or OO. The ARRL program closed in 2019 and was replaced by the Volunteer Monitor program.",
+            "Volunteer Monitors work within an ARRL and FCC arrangement. They observe operation and provide documented information; they are not FCC enforcement officers.",
+            "If you receive a notice, verify its source, review your station setup and records, and correct an identified technical or operating problem.",
+            "For interference reports, preserve times, frequencies, mode and factual observations. Do not argue on the air or claim authority you do not hold."
+          ],
+          "table": null,
+          "refs": "15",
+          "group": "Services",
+          "note": "",
+          "id": "observer-01",
+          "section_id": "observer"
+        }
+      ]
+    },
+    {
+      "id": "traffic",
+      "title": "National Traffic System",
+      "pages": [
+        {
+          "title": "NTS and message movement",
+          "paragraphs": [
+            "National Traffic System moves formal messages through amateur traffic nets and relay stations. A radiogram preserves the originator, destination and exact text across those relays.",
+            "Find the local net, practice before deployment, and ask net control where to route traffic. Nets can connect local, section, regional and wider paths.",
+            "Accept a message only when you can copy it accurately and arrange onward relay or delivery. Record each handoff.",
+            "An accepted message is not necessarily delivered. Track critical traffic through the required recipient confirmation and service reports."
+          ],
+          "table": null,
+          "refs": "16, 17, 19",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-01",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Radiogram preamble",
+          "paragraphs": [
+            "Record in order: message number; precedence; optional HX instructions; station of origin; check; place of origin; optional filing time; date.",
+            "Then record the addressee and delivery information, the text, and the signature of the person originating the message.",
+            "The station of origin is the station first placing the message into radiogram form, not necessarily the person who wrote it.",
+            "The check counts text groups only. Exclude preamble, address and signature. Preserve the original number and station of origin through relays."
+          ],
+          "table": null,
+          "refs": "17",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-02",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Radiogram worked example",
+          "paragraphs": [
+            "Practice message, not an actual incident.",
+            "Preamble: 1 R AB9MZ 10 TINLEY PARK IL 0200Z NOV 1",
+            "To: EXERCISE CONTROL. Use the destination contact supplied by your exercise.",
+            "Text: EXERCISE SHELTER ONE HAS POWER X NO ADDITIONAL BATTERIES NEEDED",
+            "Signature: GREGG",
+            "Check is 10: EXERCISE 1, SHELTER 2, ONE 3, HAS 4, POWER 5, X 6, NO 7, ADDITIONAL 8, BATTERIES 9, NEEDED 10."
+          ],
+          "table": null,
+          "refs": "17",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-03",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Message precedence",
+          "paragraphs": [
+            "EMERGENCY: immediate life-safety urgency. Spell out EMERGENCY in the preamble; do not abbreviate it to E.",
+            "P, Priority: important time-sensitive emergency-related traffic that does not meet Emergency precedence.",
+            "W, Welfare: health-and-welfare inquiries or advisories concerning people in a disaster area. R, Routine: ordinary traffic.",
+            "Current NTS 2.0 material also provides Certified handling for qualifying routine messages requiring confirmed delivery within 48 hours. Use the current origination procedure; do not invent a precedence code.",
+            "The originator determines the appropriate urgency. Do not upgrade routine traffic to obtain faster service."
+          ],
+          "table": null,
+          "refs": "17, 19",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-04",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Handling instructions A through F",
+          "paragraphs": [
+            "Current ARRL and RRI meanings, revised 2025-11-16. Do not use older cards for HXA.",
+            "HXA: email or text delivery preferred.",
+            "HXB: cancel if not delivered within the specified hours; service the origin.",
+            "HXC: report delivery date and time to the origin.",
+            "HXD: every handling station reports receive and relay or delivery details to the origin. Avoid during overloaded disaster circuits.",
+            "HXE: obtain a reply and originate it back. HXF: hold delivery until the specified date."
+          ],
+          "table": null,
+          "refs": "18",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-05",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Handling instructions G through T",
+          "paragraphs": [
+            "HXG: if delivery involves expense, cancellation is permitted; service the origin.",
+            "HXI: deliver as a radiogram-ICS-213 message.",
+            "HXR: confirm the addressee has read the message and reply to the originator. Reserved for Emergency, Priority and Certified messages.",
+            "HXT: special traffic-test message, with the specified test identifier.",
+            "Keep parameters, combinations and net instructions with the message. For HXC and HXE, an addressee receiving directly on the air is responsible for the reply."
+          ],
+          "table": null,
+          "refs": "18",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-06",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Copy send and deliver traffic",
+          "paragraphs": [
+            "Copy exactly. Ask for fills before acknowledging. Use SAY AGAIN WORD AFTER, WORD BEFORE, or the requested group as your net procedure permits.",
+            "Send at the receiving operator's copying speed. Spell ambiguous names and read numbers separately. Use breaks to separate address, text and signature.",
+            "Read back critical locations, quantities and instructions. Log received-from, sent-to, UTC times and message number.",
+            "For delivery, identify yourself, verify the recipient and read the exact message and signature. Record delivery or failure and send the required service message. Never fabricate a missing word."
+          ],
+          "table": null,
+          "refs": "17, 19",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-07",
+          "section_id": "traffic"
+        },
+        {
+          "title": "Numbered texts and ICS messages",
+          "paragraphs": [
+            "ARL numbered radiograms refer to standardized text. Use the current official list at both ends and fill all required blanks. An ARL-prefixed check counts the transmitted text groups.",
+            "Do not guess an ARL number from memory or substitute an old list during a real incident. Plain-text messages avoid a mismatched lookup table.",
+            "ICS 213 is a general-message form; a radiogram is a traffic transport format. They are not interchangeable without an agreed mapping.",
+            "For radiogram-ICS-213 traffic, follow the current NTS encoding procedure and use HXI when required."
+          ],
+          "table": null,
+          "refs": "17, 18, 20",
+          "group": "Traffic",
+          "note": "",
+          "id": "traffic-08",
+          "section_id": "traffic"
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Message forms logs and PACE plan",
+      "pages": [
+        {
+          "title": "ICS forms in the field",
+          "paragraphs": [
+            "ICS 205 records the incident radio communications plan. ICS 205A records communications contacts. Use the version approved by the incident.",
+            "ICS 213 carries a general message and reply. It is not itself proof of delivery or action.",
+            "ICS 214 records activities and significant events for the operational period.",
+            "The following large-print worksheets support field notes. They are adaptations, not official FEMA forms. Transfer information to the required official form when the served agency requires it.",
+            "Keep the approved channel plan, message-routing process and local safety instructions with the assignment."
+          ],
+          "table": null,
+          "refs": "20",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-01",
+          "section_id": "forms"
+        },
+        {
+          "title": "General message worksheet",
+          "paragraphs": [
+            "Large-print adaptation for ICS 213 field notes.",
+            "Incident: __________________________",
+            "Date and time with zone: ______________",
+            "To and position: _____________________",
+            "From and position: ___________________",
+            "Subject: ___________________________",
+            "Approved by and position: ______________",
+            "Message ID: ________________________"
+          ],
+          "table": null,
+          "refs": "20",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-02",
+          "section_id": "forms"
+        },
+        {
+          "title": "General message text and reply",
+          "paragraphs": [
+            "Message ID: ________________________",
+            "Message text: _______________________",
+            "_________________________________",
+            "_________________________________",
+            "_________________________________",
+            "Reply and action status: _______________",
+            "_________________________________",
+            "Replied by and position: _______________",
+            "Reply date and time with zone: __________"
+          ],
+          "table": null,
+          "refs": "20",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-03",
+          "section_id": "forms"
+        },
+        {
+          "title": "Activity log worksheet",
+          "paragraphs": [
+            "Large-print adaptation for ICS 214 notes. Copy this page as needed.",
+            "Incident and operational period: _________",
+            "Name and assignment: _________________",
+            "Time and zone: ______________________",
+            "Event or action: ______________________",
+            "_________________________________",
+            "Time and zone: ______________________",
+            "Event or action: ______________________",
+            "_________________________________",
+            "Prepared by: ________________________"
+          ],
+          "table": null,
+          "refs": "20",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-04",
+          "section_id": "forms"
+        },
+        {
+          "title": "Channel plan worksheet",
+          "paragraphs": [
+            "Local field worksheet. Complete before use; do not substitute for an approved ICS 205.",
+            "Function and channel name: ____________",
+            "Receive MHz: _______________________",
+            "Transmit MHz: _______________________",
+            "Mode and bandwidth: _________________",
+            "Transmit tone or digital settings: _________",
+            "Receive tone if used: _________________",
+            "Power and antenna: __________________",
+            "Authorized by and verified date: __________"
+          ],
+          "table": null,
+          "refs": "20",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-05",
+          "section_id": "forms"
+        },
+        {
+          "title": "PACE communications plan",
+          "paragraphs": [
+            "Primary: ___________________________",
+            "Alternate: __________________________",
+            "Contingency: ________________________",
+            "Emergency: _________________________",
+            "For each path, write destination, channel, mode, schedule and how receipt is confirmed.",
+            "Change to the next path after: ___________",
+            "If isolated, meet or report at: ____________",
+            "Avoid a shared point of failure. Two internet-linked repeaters may both fail with one network outage."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-06",
+          "section_id": "forms"
+        },
+        {
+          "title": "Local contacts and nets",
+          "paragraphs": [
+            "Emergency: 911 where available.",
+            "Assignment authority: _________________",
+            "Net control and alternate: ______________",
+            "ARES or RACES contact: _______________",
+            "NTS net and UTC schedule: ______________",
+            "Weather reporting route: _______________",
+            "Family or accountability contact: __________",
+            "Local simplex fallback: _________________",
+            "Last verified date: ____________________"
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-07",
+          "section_id": "forms"
+        },
+        {
+          "title": "Contact log worksheet",
+          "paragraphs": [
+            "Date UTC: __________________________",
+            "Time UTC and station: _________________",
+            "Frequency mode and report: ____________",
+            "Message or action: ___________________",
+            "_________________________________",
+            "Time UTC and station: _________________",
+            "Frequency mode and report: ____________",
+            "Message or action: ___________________",
+            "_________________________________"
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Forms",
+          "note": "",
+          "id": "forms-08",
+          "section_id": "forms"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather radio and storm reports",
+      "pages": [
+        {
+          "title": "Weather radio receive only",
+          "paragraphs": [],
+          "table": [
+            [
+              "NOAA frequency MHz"
+            ],
+            [
+              "162.400"
+            ],
+            [
+              "162.425"
+            ],
+            [
+              "162.450"
+            ],
+            [
+              "162.475"
+            ],
+            [
+              "162.500"
+            ],
+            [
+              "162.525"
+            ],
+            [
+              "162.550"
+            ]
+          ],
+          "refs": "23",
+          "group": "Weather",
+          "note": "These are weather broadcast receive channels, not amateur transmit channels. Receiver channel numbering varies. Confirm the local station, reception and warning coverage; keep an independent alert method.",
+          "id": "weather-01",
+          "section_id": "weather"
+        },
+        {
+          "title": "Storm spotter report",
+          "paragraphs": [
+            "Protect yourself first. Report from safe shelter or an approved observation point. Do not approach a tornado, floodwater, downed wiring or unstable debris.",
+            "Give: what you observed; exact location; observation time and zone; whether still occurring; measured versus estimated size or speed; your call sign and callback.",
+            "Distinguish direct observation from a relayed report. Never turn an estimate into a measured value.",
+            "Use the current local NWS reporting criteria and route. Chicago serves much of northeastern Illinois; Milwaukee Sullivan serves much of southern Wisconsin. Verify the responsible office for the actual site."
+          ],
+          "table": null,
+          "refs": "24, 25, 26",
+          "group": "Weather",
+          "note": "",
+          "id": "weather-02",
+          "section_id": "weather"
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "title": "Glossary and review checklist",
+      "pages": [
+        {
+          "title": "Glossary",
+          "paragraphs": [],
+          "table": [
+            [
+              "Term",
+              "Meaning"
+            ],
+            [
+              "ALC",
+              "Automatic level control"
+            ],
+            [
+              "CAT",
+              "Computer aided transceiver control"
+            ],
+            [
+              "CTCSS",
+              "Continuous tone coded squelch"
+            ],
+            [
+              "DCS",
+              "Digital coded squelch"
+            ],
+            [
+              "EIRP",
+              "Power relative to isotropic antenna"
+            ],
+            [
+              "ERP",
+              "Power relative to half-wave dipole"
+            ],
+            [
+              "NCS",
+              "Net control station"
+            ],
+            [
+              "NVIS",
+              "Near vertical incidence skywave"
+            ],
+            [
+              "PEP",
+              "Peak envelope power"
+            ],
+            [
+              "PTT",
+              "Push to talk"
+            ],
+            [
+              "SWR",
+              "Standing wave ratio"
+            ]
+          ],
+          "refs": "",
+          "group": "Reference",
+          "note": "",
+          "id": "reference-01",
+          "section_id": "reference"
+        },
+        {
+          "title": "Review before the next outing",
+          "paragraphs": [
+            "This edition is dated 2026-10-31. Recheck rules, band privileges, software frequency lists and program instructions before relying on an older printed copy.",
+            "Verify local channels, tones, nets, contacts and paths before every deployment. Worksheets intentionally leave these operational assignments for local confirmation.",
+            "The source pages identify the references used. Source numbers on topic pages point to those entries. Original procedures and worksheets supplement those references.",
+            "Maintain your own change log and replace revised leaves in the comb. Keep one complete electronic copy available offline."
+          ],
+          "table": null,
+          "refs": "",
+          "group": "Reference",
+          "note": "",
+          "id": "reference-02",
+          "section_id": "reference"
+        }
+      ]
+    }
+  ],
+  "font_family": "Helvetica"
+}

@@ -1,0 +1,50 @@
+{
+  "revision": "b2bee2e24d0c",
+  "typeface": "Helvetica",
+  "sections": 22,
+  "pdf_pages": 112,
+  "word_pages": 112,
+  "all_text_and_tables_present": true,
+  "pdf_bookmarks": 23,
+  "clickable_contents_links": 23,
+  "phonetic_pages": 1,
+  "morse_pages": 10,
+  "native_section_checkboxes": 22,
+  "external_script_dependencies": 0,
+  "master_edit_propagation": "Passed source-to-section/full/HTML rebuild probe",
+  "review_status": "Draft for Gregg and Patricia; WCAG 2.2 AA conformance not yet claimed",
+  "live_browser": "Chrome cloud browser, internal preview",
+  "axe_version": "4.14.0",
+  "axe_light": {
+    "violations": 0,
+    "incomplete": 0,
+    "passing_rules": 28
+  },
+  "axe_dark": {
+    "violations": 0,
+    "incomplete": 0,
+    "passing_rules": 28
+  },
+  "axe_narrow_200_percent_text_and_spacing": {
+    "violations": 0,
+    "incomplete_contrast_nodes": 11,
+    "passing_rules": 30,
+    "iframe_css_width": 320,
+    "content_css_width": 305,
+    "page_scroll_width": 305,
+    "text_css_pixels": 44
+  },
+  "browser_tasks": [
+    "keyboard checkbox Space",
+    "empty selection disables download",
+    "read unselected section without selection changes",
+    "individual PDF generation",
+    "focus restored after PDF generation"
+  ],
+  "tagged_pdf_review_copies": 23,
+  "tagged_pdf_font": "Nimbus Sans (Helvetica-compatible substitute)",
+  "full_tagged_table_headers": 70,
+  "full_tagged_headers_with_column_scope": 70,
+  "voiceover_nvda_jaws": "Not tested",
+  "pdf_ua_certified": false
+}
